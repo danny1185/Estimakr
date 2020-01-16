@@ -1,0 +1,14 @@
+#rowDeleteBtn {
+    color: white;
+}
+.pt-3-half {
+    padding-top: 1.4rem;
+    }
+    
+    .error
+    {
+        float: left;
+        color: red;
+        width: 100%;
+        text-align: left;
+    }

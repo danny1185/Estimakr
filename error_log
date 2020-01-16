@@ -1,0 +1,1047 @@
+[14-Nov-2019 17:06:18 UTC] PHP Warning:  mysqli_connect(): (28000/1045): Access denied for user 'root'@'localhost' (using password: NO) in /home/xj6eunsk9mjs/public_html/connection.php on line 3
+[14-Nov-2019 17:06:51 UTC] PHP Warning:  mysqli_connect(): (28000/1045): Access denied for user 'root'@'localhost' (using password: NO) in /home/xj6eunsk9mjs/public_html/connection.php on line 3
+[14-Nov-2019 17:06:51 UTC] PHP Warning:  mysqli_connect(): (28000/1045): Access denied for user 'root'@'localhost' (using password: NO) in /home/xj6eunsk9mjs/public_html/signUp.php on line 10
+[14-Nov-2019 17:06:51 UTC] PHP Warning:  mysqli_query() expects parameter 1 to be mysqli, boolean given in /home/xj6eunsk9mjs/public_html/signUp.php on line 12
+[14-Nov-2019 17:06:51 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function mysql_error() in /home/xj6eunsk9mjs/public_html/signUp.php:16
+Stack trace:
+#0 {main}
+  thrown in /home/xj6eunsk9mjs/public_html/signUp.php on line 16
+[14-Nov-2019 17:07:20 UTC] PHP Notice:  Undefined index: user_id in /home/xj6eunsk9mjs/public_html/update_profile.php on line 5
+[14-Nov-2019 17:07:20 UTC] PHP Warning:  mysqli::__construct(): (28000/1045): Access denied for user 'root'@'localhost' (using password: NO) in /home/xj6eunsk9mjs/public_html/database_library/MysqliDb.php on line 281
+[14-Nov-2019 17:07:20 UTC] PHP Fatal error:  Uncaught Exception: Connect Error 1045: Access denied for user 'root'@'localhost' (using password: NO) in /home/xj6eunsk9mjs/public_html/database_library/MysqliDb.php:284
+Stack trace:
+#0 /home/xj6eunsk9mjs/public_html/database_library/MysqliDb.php(300): MysqliDb->connect()
+#1 /home/xj6eunsk9mjs/public_html/database_library/MysqliDb.php(1815): MysqliDb->mysqli()
+#2 /home/xj6eunsk9mjs/public_html/database_library/MysqliDb.php(430): MysqliDb->_prepareQuery()
+#3 /home/xj6eunsk9mjs/public_html/database_library/MysqliDb.php(464): MysqliDb->rawQuery('select * from r...', NULL)
+#4 /home/xj6eunsk9mjs/public_html/update_profile.php(6): MysqliDb->rawQueryOne('select * from r...')
+#5 {main}
+  thrown in /home/xj6eunsk9mjs/public_html/database_library/MysqliDb.php on line 284
+[14-Nov-2019 17:22:57 UTC] PHP Warning:  mysqli_connect(): (28000/1045): Access denied for user 'root'@'localhost' (using password: NO) in /home/xj6eunsk9mjs/public_html/connection.php on line 3
+[14-Nov-2019 17:39:17 UTC] PHP Warning:  mysqli_connect(): (28000/1045): Access denied for user 'root'@'localhost' (using password: NO) in /home/xj6eunsk9mjs/public_html/connection.php on line 3
+[14-Nov-2019 17:39:39 UTC] PHP Warning:  mysqli_connect(): (28000/1045): Access denied for user 'root'@'localhost' (using password: NO) in /home/xj6eunsk9mjs/public_html/connection.php on line 3
+[14-Nov-2019 17:39:39 UTC] PHP Warning:  mysqli_connect(): (28000/1045): Access denied for user 'root'@'localhost' (using password: NO) in /home/xj6eunsk9mjs/public_html/signUp.php on line 10
+[14-Nov-2019 17:39:39 UTC] PHP Warning:  mysqli_query() expects parameter 1 to be mysqli, boolean given in /home/xj6eunsk9mjs/public_html/signUp.php on line 12
+[14-Nov-2019 17:39:39 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function mysql_error() in /home/xj6eunsk9mjs/public_html/signUp.php:16
+Stack trace:
+#0 {main}
+  thrown in /home/xj6eunsk9mjs/public_html/signUp.php on line 16
+[14-Nov-2019 22:03:13 UTC] PHP Warning:  mysqli_connect(): (28000/1045): Access denied for user 'root'@'localhost' (using password: NO) in /home/xj6eunsk9mjs/public_html/connection.php on line 3
+[14-Nov-2019 22:03:47 UTC] PHP Warning:  mysqli_connect(): (28000/1045): Access denied for user 'root'@'localhost' (using password: NO) in /home/xj6eunsk9mjs/public_html/connection.php on line 3
+[14-Nov-2019 22:03:47 UTC] PHP Warning:  mysqli_connect(): (28000/1045): Access denied for user 'root'@'localhost' (using password: NO) in /home/xj6eunsk9mjs/public_html/signUp.php on line 10
+[14-Nov-2019 22:03:47 UTC] PHP Warning:  mysqli_query() expects parameter 1 to be mysqli, boolean given in /home/xj6eunsk9mjs/public_html/signUp.php on line 12
+[14-Nov-2019 22:03:47 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function mysql_error() in /home/xj6eunsk9mjs/public_html/signUp.php:16
+Stack trace:
+#0 {main}
+  thrown in /home/xj6eunsk9mjs/public_html/signUp.php on line 16
+[14-Nov-2019 22:04:02 UTC] PHP Warning:  mysqli_connect(): (28000/1045): Access denied for user 'root'@'localhost' (using password: NO) in /home/xj6eunsk9mjs/public_html/connection.php on line 3
+[15-Nov-2019 00:26:10 UTC] PHP Notice:  Undefined index: user_id in /home/xj6eunsk9mjs/public_html/estimateStatus.php on line 244
+[15-Nov-2019 00:26:10 UTC] PHP Warning:  mysqli::__construct(): (28000/1045): Access denied for user 'root'@'localhost' (using password: NO) in /home/xj6eunsk9mjs/public_html/database_library/MysqliDb.php on line 281
+[15-Nov-2019 00:26:10 UTC] PHP Fatal error:  Uncaught Exception: Connect Error 1045: Access denied for user 'root'@'localhost' (using password: NO) in /home/xj6eunsk9mjs/public_html/database_library/MysqliDb.php:284
+Stack trace:
+#0 /home/xj6eunsk9mjs/public_html/database_library/MysqliDb.php(300): MysqliDb->connect()
+#1 /home/xj6eunsk9mjs/public_html/database_library/MysqliDb.php(1815): MysqliDb->mysqli()
+#2 /home/xj6eunsk9mjs/public_html/database_library/MysqliDb.php(430): MysqliDb->_prepareQuery()
+#3 /home/xj6eunsk9mjs/public_html/estimateStatus.php(245): MysqliDb->rawQuery('select * from e...')
+#4 {main}
+  thrown in /home/xj6eunsk9mjs/public_html/database_library/MysqliDb.php on line 284
+[15-Nov-2019 00:32:59 UTC] PHP Notice:  Undefined index: user_id in /home/xj6eunsk9mjs/public_html/estimateStatus.php on line 244
+[15-Nov-2019 00:32:59 UTC] PHP Warning:  mysqli::__construct(): (28000/1045): Access denied for user 'root'@'localhost' (using password: NO) in /home/xj6eunsk9mjs/public_html/database_library/MysqliDb.php on line 281
+[15-Nov-2019 00:32:59 UTC] PHP Fatal error:  Uncaught Exception: Connect Error 1045: Access denied for user 'root'@'localhost' (using password: NO) in /home/xj6eunsk9mjs/public_html/database_library/MysqliDb.php:284
+Stack trace:
+#0 /home/xj6eunsk9mjs/public_html/database_library/MysqliDb.php(300): MysqliDb->connect()
+#1 /home/xj6eunsk9mjs/public_html/database_library/MysqliDb.php(1815): MysqliDb->mysqli()
+#2 /home/xj6eunsk9mjs/public_html/database_library/MysqliDb.php(430): MysqliDb->_prepareQuery()
+#3 /home/xj6eunsk9mjs/public_html/estimateStatus.php(245): MysqliDb->rawQuery('select * from e...')
+#4 {main}
+  thrown in /home/xj6eunsk9mjs/public_html/database_library/MysqliDb.php on line 284
+[15-Nov-2019 14:26:54 UTC] PHP Warning:  mysqli_connect(): (28000/1045): Access denied for user 'root'@'localhost' (using password: NO) in /home/xj6eunsk9mjs/public_html/connection.php on line 3
+[15-Nov-2019 14:27:14 UTC] PHP Warning:  mysqli_connect(): (28000/1045): Access denied for user 'root'@'localhost' (using password: NO) in /home/xj6eunsk9mjs/public_html/connection.php on line 3
+[15-Nov-2019 14:27:14 UTC] PHP Warning:  mysqli_connect(): (28000/1045): Access denied for user 'root'@'localhost' (using password: NO) in /home/xj6eunsk9mjs/public_html/signUp.php on line 10
+[15-Nov-2019 14:27:14 UTC] PHP Warning:  mysqli_query() expects parameter 1 to be mysqli, boolean given in /home/xj6eunsk9mjs/public_html/signUp.php on line 12
+[15-Nov-2019 14:27:14 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function mysql_error() in /home/xj6eunsk9mjs/public_html/signUp.php:16
+Stack trace:
+#0 {main}
+  thrown in /home/xj6eunsk9mjs/public_html/signUp.php on line 16
+[15-Nov-2019 14:49:31 UTC] PHP Warning:  mysqli_connect(): (28000/1045): Access denied for user 'root'@'ip-107-180-2-111.ip.secureserver.net' (using password: NO) in /home/xj6eunsk9mjs/public_html/connection.php on line 3
+[15-Nov-2019 14:49:40 UTC] PHP Warning:  mysqli_connect(): (28000/1045): Access denied for user 'root'@'ip-107-180-2-111.ip.secureserver.net' (using password: NO) in /home/xj6eunsk9mjs/public_html/connection.php on line 3
+[15-Nov-2019 14:49:40 UTC] PHP Warning:  mysqli_connect(): (28000/1045): Access denied for user 'root'@'localhost' (using password: NO) in /home/xj6eunsk9mjs/public_html/signUp.php on line 10
+[15-Nov-2019 14:49:40 UTC] PHP Warning:  mysqli_query() expects parameter 1 to be mysqli, boolean given in /home/xj6eunsk9mjs/public_html/signUp.php on line 12
+[15-Nov-2019 14:49:40 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function mysql_error() in /home/xj6eunsk9mjs/public_html/signUp.php:16
+Stack trace:
+#0 {main}
+  thrown in /home/xj6eunsk9mjs/public_html/signUp.php on line 16
+[15-Nov-2019 14:50:52 UTC] PHP Warning:  mysqli_connect(): (28000/1045): Access denied for user 'root'@'ip-107-180-2-111.ip.secureserver.net' (using password: NO) in /home/xj6eunsk9mjs/public_html/connection.php on line 3
+[15-Nov-2019 14:51:01 UTC] PHP Warning:  mysqli_connect(): (28000/1045): Access denied for user 'root'@'ip-107-180-2-111.ip.secureserver.net' (using password: NO) in /home/xj6eunsk9mjs/public_html/connection.php on line 3
+[15-Nov-2019 14:51:01 UTC] PHP Warning:  mysqli_connect(): (28000/1045): Access denied for user 'root'@'ip-107-180-2-111.ip.secureserver.net' (using password: NO) in /home/xj6eunsk9mjs/public_html/signUp.php on line 10
+[15-Nov-2019 14:51:01 UTC] PHP Warning:  mysqli_query() expects parameter 1 to be mysqli, boolean given in /home/xj6eunsk9mjs/public_html/signUp.php on line 12
+[15-Nov-2019 14:51:01 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function mysql_error() in /home/xj6eunsk9mjs/public_html/signUp.php:16
+Stack trace:
+#0 {main}
+  thrown in /home/xj6eunsk9mjs/public_html/signUp.php on line 16
+[15-Nov-2019 14:53:43 UTC] PHP Warning:  mysqli_connect(): (28000/1045): Access denied for user 'root'@'ip-107-180-2-111.ip.secureserver.net' (using password: NO) in /home/xj6eunsk9mjs/public_html/connection.php on line 3
+[15-Nov-2019 14:53:43 UTC] PHP Warning:  mysqli_connect(): (28000/1045): Access denied for user 'root'@'ip-107-180-2-111.ip.secureserver.net' (using password: NO) in /home/xj6eunsk9mjs/public_html/signUp.php on line 10
+[15-Nov-2019 14:53:43 UTC] PHP Warning:  mysqli_query() expects parameter 1 to be mysqli, boolean given in /home/xj6eunsk9mjs/public_html/signUp.php on line 12
+[15-Nov-2019 14:53:43 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function mysql_error() in /home/xj6eunsk9mjs/public_html/signUp.php:16
+Stack trace:
+#0 {main}
+  thrown in /home/xj6eunsk9mjs/public_html/signUp.php on line 16
+[15-Nov-2019 14:58:29 UTC] PHP Warning:  mysqli_connect(): (28000/1045): Access denied for user 'root'@'ip-107-180-2-111.ip.secureserver.net' (using password: NO) in /home/xj6eunsk9mjs/public_html/connection.php on line 3
+[15-Nov-2019 14:58:29 UTC] PHP Warning:  mysqli_connect(): (28000/1045): Access denied for user 'root'@'ip-107-180-2-111.ip.secureserver.net' (using password: NO) in /home/xj6eunsk9mjs/public_html/signUp.php on line 10
+[15-Nov-2019 14:58:29 UTC] PHP Warning:  mysqli_query() expects parameter 1 to be mysqli, boolean given in /home/xj6eunsk9mjs/public_html/signUp.php on line 12
+[15-Nov-2019 14:58:29 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function mysql_error() in /home/xj6eunsk9mjs/public_html/signUp.php:16
+Stack trace:
+#0 {main}
+  thrown in /home/xj6eunsk9mjs/public_html/signUp.php on line 16
+[15-Nov-2019 15:03:12 UTC] PHP Warning:  mysqli_connect(): (28000/1045): Access denied for user 'root'@'ip-107-180-2-111.ip.secureserver.net' (using password: NO) in /home/xj6eunsk9mjs/public_html/connection.php on line 3
+[15-Nov-2019 15:03:12 UTC] PHP Warning:  mysqli_connect(): (28000/1045): Access denied for user 'root'@'ip-107-180-2-111.ip.secureserver.net' (using password: NO) in /home/xj6eunsk9mjs/public_html/signUp.php on line 10
+[15-Nov-2019 15:03:12 UTC] PHP Warning:  mysqli_query() expects parameter 1 to be mysqli, boolean given in /home/xj6eunsk9mjs/public_html/signUp.php on line 12
+[15-Nov-2019 15:03:12 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function mysql_error() in /home/xj6eunsk9mjs/public_html/signUp.php:16
+Stack trace:
+#0 {main}
+  thrown in /home/xj6eunsk9mjs/public_html/signUp.php on line 16
+[15-Nov-2019 15:30:12 UTC] PHP Warning:  mysqli_connect(): (28000/1045): Access denied for user 'root'@'ip-107-180-2-111.ip.secureserver.net' (using password: NO) in /home/xj6eunsk9mjs/public_html/connection.php on line 3
+[15-Nov-2019 15:30:19 UTC] PHP Warning:  mysqli_connect(): (28000/1045): Access denied for user 'root'@'ip-107-180-2-111.ip.secureserver.net' (using password: NO) in /home/xj6eunsk9mjs/public_html/connection.php on line 3
+[15-Nov-2019 15:30:30 UTC] PHP Warning:  mysqli_connect(): (28000/1045): Access denied for user 'root'@'ip-107-180-2-111.ip.secureserver.net' (using password: NO) in /home/xj6eunsk9mjs/public_html/connection.php on line 3
+[15-Nov-2019 15:30:30 UTC] PHP Warning:  mysqli_connect(): (28000/1045): Access denied for user 'root'@'ip-107-180-2-111.ip.secureserver.net' (using password: NO) in /home/xj6eunsk9mjs/public_html/signUp.php on line 10
+[15-Nov-2019 15:30:30 UTC] PHP Warning:  mysqli_query() expects parameter 1 to be mysqli, boolean given in /home/xj6eunsk9mjs/public_html/signUp.php on line 12
+[15-Nov-2019 15:30:30 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function mysql_error() in /home/xj6eunsk9mjs/public_html/signUp.php:16
+Stack trace:
+#0 {main}
+  thrown in /home/xj6eunsk9mjs/public_html/signUp.php on line 16
+[16-Nov-2019 14:06:52 UTC] PHP Warning:  mysqli_connect(): (28000/1045): Access denied for user 'root'@'ip-107-180-2-111.ip.secureserver.net' (using password: NO) in /home/xj6eunsk9mjs/public_html/connection.php on line 3
+[16-Nov-2019 14:07:06 UTC] PHP Warning:  mysqli_connect(): (28000/1045): Access denied for user 'root'@'ip-107-180-2-111.ip.secureserver.net' (using password: NO) in /home/xj6eunsk9mjs/public_html/connection.php on line 3
+[16-Nov-2019 14:07:06 UTC] PHP Warning:  mysqli_connect(): (28000/1045): Access denied for user 'root'@'ip-107-180-2-111.ip.secureserver.net' (using password: NO) in /home/xj6eunsk9mjs/public_html/signUp.php on line 10
+[16-Nov-2019 14:07:06 UTC] PHP Warning:  mysqli_query() expects parameter 1 to be mysqli, boolean given in /home/xj6eunsk9mjs/public_html/signUp.php on line 12
+[16-Nov-2019 14:07:06 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function mysql_error() in /home/xj6eunsk9mjs/public_html/signUp.php:16
+Stack trace:
+#0 {main}
+  thrown in /home/xj6eunsk9mjs/public_html/signUp.php on line 16
+[16-Nov-2019 14:08:51 UTC] PHP Warning:  mysqli_connect(): (28000/1045): Access denied for user 'root'@'ip-107-180-2-111.ip.secureserver.net' (using password: NO) in /home/xj6eunsk9mjs/public_html/connection.php on line 3
+[16-Nov-2019 14:09:57 UTC] PHP Warning:  mysqli_connect(): (28000/1045): Access denied for user 'root'@'ip-107-180-2-111.ip.secureserver.net' (using password: NO) in /home/xj6eunsk9mjs/public_html/connection.php on line 3
+[16-Nov-2019 14:09:57 UTC] PHP Warning:  mysqli_connect(): (28000/1045): Access denied for user 'root'@'ip-107-180-2-111.ip.secureserver.net' (using password: NO) in /home/xj6eunsk9mjs/public_html/signUp.php on line 10
+[16-Nov-2019 14:09:57 UTC] PHP Warning:  mysqli_query() expects parameter 1 to be mysqli, boolean given in /home/xj6eunsk9mjs/public_html/signUp.php on line 12
+[16-Nov-2019 14:09:57 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function mysql_error() in /home/xj6eunsk9mjs/public_html/signUp.php:16
+Stack trace:
+#0 {main}
+  thrown in /home/xj6eunsk9mjs/public_html/signUp.php on line 16
+[16-Nov-2019 15:07:49 UTC] PHP Warning:  mysqli_connect(): (28000/1045): Access denied for user 'root'@'ip-107-180-2-111.ip.secureserver.net' (using password: NO) in /home/xj6eunsk9mjs/public_html/connection.php on line 3
+[16-Nov-2019 18:11:16 UTC] PHP Warning:  mysqli_connect(): (28000/1045): Access denied for user 'root'@'ip-107-180-2-111.ip.secureserver.net' (using password: NO) in /home/xj6eunsk9mjs/public_html/connection.php on line 3
+[16-Nov-2019 18:11:45 UTC] PHP Warning:  mysqli_connect(): (28000/1045): Access denied for user 'root'@'ip-107-180-2-111.ip.secureserver.net' (using password: NO) in /home/xj6eunsk9mjs/public_html/connection.php on line 3
+[16-Nov-2019 18:11:45 UTC] PHP Warning:  mysqli_connect(): (28000/1045): Access denied for user 'root'@'ip-107-180-2-111.ip.secureserver.net' (using password: NO) in /home/xj6eunsk9mjs/public_html/signUp.php on line 10
+[16-Nov-2019 18:11:45 UTC] PHP Warning:  mysqli_query() expects parameter 1 to be mysqli, boolean given in /home/xj6eunsk9mjs/public_html/signUp.php on line 12
+[16-Nov-2019 18:11:45 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function mysql_error() in /home/xj6eunsk9mjs/public_html/signUp.php:16
+Stack trace:
+#0 {main}
+  thrown in /home/xj6eunsk9mjs/public_html/signUp.php on line 16
+[16-Nov-2019 18:12:48 UTC] PHP Warning:  mysqli_connect(): (28000/1045): Access denied for user 'root'@'ip-107-180-2-111.ip.secureserver.net' (using password: NO) in /home/xj6eunsk9mjs/public_html/connection.php on line 3
+[16-Nov-2019 18:12:48 UTC] PHP Warning:  mysqli_connect(): (28000/1045): Access denied for user 'root'@'ip-107-180-2-111.ip.secureserver.net' (using password: NO) in /home/xj6eunsk9mjs/public_html/signUp.php on line 10
+[16-Nov-2019 18:12:48 UTC] PHP Warning:  mysqli_query() expects parameter 1 to be mysqli, boolean given in /home/xj6eunsk9mjs/public_html/signUp.php on line 12
+[16-Nov-2019 18:12:48 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function mysql_error() in /home/xj6eunsk9mjs/public_html/signUp.php:16
+Stack trace:
+#0 {main}
+  thrown in /home/xj6eunsk9mjs/public_html/signUp.php on line 16
+[16-Nov-2019 18:12:58 UTC] PHP Warning:  mysqli_connect(): (28000/1045): Access denied for user 'root'@'ip-107-180-2-111.ip.secureserver.net' (using password: NO) in /home/xj6eunsk9mjs/public_html/connection.php on line 3
+[16-Nov-2019 18:12:58 UTC] PHP Warning:  mysqli_connect(): (28000/1045): Access denied for user 'root'@'ip-107-180-2-111.ip.secureserver.net' (using password: NO) in /home/xj6eunsk9mjs/public_html/signUp.php on line 10
+[16-Nov-2019 18:12:58 UTC] PHP Warning:  mysqli_query() expects parameter 1 to be mysqli, boolean given in /home/xj6eunsk9mjs/public_html/signUp.php on line 12
+[16-Nov-2019 18:12:58 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function mysql_error() in /home/xj6eunsk9mjs/public_html/signUp.php:16
+Stack trace:
+#0 {main}
+  thrown in /home/xj6eunsk9mjs/public_html/signUp.php on line 16
+[16-Nov-2019 18:13:02 UTC] PHP Warning:  mysqli_connect(): (28000/1045): Access denied for user 'root'@'ip-107-180-2-111.ip.secureserver.net' (using password: NO) in /home/xj6eunsk9mjs/public_html/connection.php on line 3
+[16-Nov-2019 18:13:02 UTC] PHP Warning:  mysqli_connect(): (28000/1045): Access denied for user 'root'@'ip-107-180-2-111.ip.secureserver.net' (using password: NO) in /home/xj6eunsk9mjs/public_html/signUp.php on line 10
+[16-Nov-2019 18:13:02 UTC] PHP Warning:  mysqli_query() expects parameter 1 to be mysqli, boolean given in /home/xj6eunsk9mjs/public_html/signUp.php on line 12
+[16-Nov-2019 18:13:02 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function mysql_error() in /home/xj6eunsk9mjs/public_html/signUp.php:16
+Stack trace:
+#0 {main}
+  thrown in /home/xj6eunsk9mjs/public_html/signUp.php on line 16
+[16-Nov-2019 18:13:15 UTC] PHP Warning:  mysqli_connect(): (28000/1045): Access denied for user 'root'@'ip-107-180-2-111.ip.secureserver.net' (using password: NO) in /home/xj6eunsk9mjs/public_html/signUp.php on line 10
+[16-Nov-2019 18:13:15 UTC] PHP Warning:  mysqli_query() expects parameter 1 to be mysqli, boolean given in /home/xj6eunsk9mjs/public_html/signUp.php on line 12
+[16-Nov-2019 18:13:15 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function mysql_error() in /home/xj6eunsk9mjs/public_html/signUp.php:16
+Stack trace:
+#0 {main}
+  thrown in /home/xj6eunsk9mjs/public_html/signUp.php on line 16
+[16-Nov-2019 18:13:18 UTC] PHP Warning:  mysqli_connect(): (28000/1045): Access denied for user 'root'@'ip-107-180-2-111.ip.secureserver.net' (using password: NO) in /home/xj6eunsk9mjs/public_html/signUp.php on line 10
+[16-Nov-2019 18:13:18 UTC] PHP Warning:  mysqli_query() expects parameter 1 to be mysqli, boolean given in /home/xj6eunsk9mjs/public_html/signUp.php on line 12
+[16-Nov-2019 18:13:18 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function mysql_error() in /home/xj6eunsk9mjs/public_html/signUp.php:16
+Stack trace:
+#0 {main}
+  thrown in /home/xj6eunsk9mjs/public_html/signUp.php on line 16
+[16-Nov-2019 18:13:27 UTC] PHP Warning:  mysqli_connect(): (28000/1045): Access denied for user 'root'@'ip-107-180-2-111.ip.secureserver.net' (using password: NO) in /home/xj6eunsk9mjs/public_html/signUp.php on line 10
+[16-Nov-2019 18:13:27 UTC] PHP Warning:  mysqli_query() expects parameter 1 to be mysqli, boolean given in /home/xj6eunsk9mjs/public_html/signUp.php on line 12
+[16-Nov-2019 18:13:27 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function mysql_error() in /home/xj6eunsk9mjs/public_html/signUp.php:16
+Stack trace:
+#0 {main}
+  thrown in /home/xj6eunsk9mjs/public_html/signUp.php on line 16
+[16-Nov-2019 18:14:18 UTC] PHP Warning:  mysqli_connect(): (28000/1045): Access denied for user 'root'@'ip-107-180-2-111.ip.secureserver.net' (using password: NO) in /home/xj6eunsk9mjs/public_html/signUp.php on line 10
+[16-Nov-2019 18:14:18 UTC] PHP Warning:  mysqli_query() expects parameter 1 to be mysqli, boolean given in /home/xj6eunsk9mjs/public_html/signUp.php on line 12
+[16-Nov-2019 18:14:18 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function mysql_error() in /home/xj6eunsk9mjs/public_html/signUp.php:16
+Stack trace:
+#0 {main}
+  thrown in /home/xj6eunsk9mjs/public_html/signUp.php on line 16
+[16-Nov-2019 18:20:01 UTC] PHP Warning:  Use of undefined constant BASE_URL - assumed 'BASE_URL' (this will throw an Error in a future version of PHP) in /home/xj6eunsk9mjs/public_html/signUp.php on line 33
+[16-Nov-2019 18:23:46 UTC] PHP Warning:  Use of undefined constant BASE_URL - assumed 'BASE_URL' (this will throw an Error in a future version of PHP) in /home/xj6eunsk9mjs/public_html/signUp.php on line 33
+[16-Nov-2019 22:18:39 UTC] PHP Notice:  Undefined index: labour_type in /home/xj6eunsk9mjs/public_html/updatee.php on line 245
+[16-Nov-2019 22:18:39 UTC] PHP Notice:  Undefined index: labour_type in /home/xj6eunsk9mjs/public_html/updatee.php on line 246
+[16-Nov-2019 22:18:39 UTC] PHP Notice:  Undefined index: unit in /home/xj6eunsk9mjs/public_html/updatee.php on line 290
+[16-Nov-2019 22:18:39 UTC] PHP Notice:  Undefined index: labour_type in /home/xj6eunsk9mjs/public_html/updatee.php on line 245
+[16-Nov-2019 22:18:39 UTC] PHP Notice:  Undefined index: labour_type in /home/xj6eunsk9mjs/public_html/updatee.php on line 246
+[16-Nov-2019 22:18:39 UTC] PHP Notice:  Undefined index: unit in /home/xj6eunsk9mjs/public_html/updatee.php on line 290
+[16-Nov-2019 22:18:39 UTC] PHP Notice:  Undefined index: labour_type in /home/xj6eunsk9mjs/public_html/updatee.php on line 245
+[16-Nov-2019 22:18:39 UTC] PHP Notice:  Undefined index: labour_type in /home/xj6eunsk9mjs/public_html/updatee.php on line 246
+[16-Nov-2019 22:18:39 UTC] PHP Notice:  Undefined index: unit in /home/xj6eunsk9mjs/public_html/updatee.php on line 290
+[17-Nov-2019 04:30:13 UTC] PHP Warning:  mysqli_connect(): (28000/1045): Access denied for user 'root'@'localhost' (using password: NO) in /home/xj6eunsk9mjs/public_html/signUp.php on line 10
+[17-Nov-2019 04:30:13 UTC] PHP Warning:  mysqli_query() expects parameter 1 to be mysqli, boolean given in /home/xj6eunsk9mjs/public_html/signUp.php on line 12
+[17-Nov-2019 04:30:13 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function mysql_error() in /home/xj6eunsk9mjs/public_html/signUp.php:16
+Stack trace:
+#0 {main}
+  thrown in /home/xj6eunsk9mjs/public_html/signUp.php on line 16
+[17-Nov-2019 05:53:21 UTC] PHP Notice:  Undefined index: labour_type in /home/xj6eunsk9mjs/public_html/updatee.php on line 245
+[17-Nov-2019 05:53:21 UTC] PHP Notice:  Undefined index: labour_type in /home/xj6eunsk9mjs/public_html/updatee.php on line 246
+[17-Nov-2019 05:53:21 UTC] PHP Notice:  Undefined index: unit in /home/xj6eunsk9mjs/public_html/updatee.php on line 290
+[17-Nov-2019 08:04:45 UTC] PHP Notice:  Undefined index: user_id in /home/xj6eunsk9mjs/public_html/estimateStatus.php on line 261
+[17-Nov-2019 08:04:45 UTC] PHP Fatal error:  Uncaught Exception: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '' at line 1 query: select * from estimation where  user_id =  in /home/xj6eunsk9mjs/public_html/database_library/MysqliDb.php:1819
+Stack trace:
+#0 /home/xj6eunsk9mjs/public_html/database_library/MysqliDb.php(430): MysqliDb->_prepareQuery()
+#1 /home/xj6eunsk9mjs/public_html/estimateStatus.php(262): MysqliDb->rawQuery('select * from e...')
+#2 {main}
+  thrown in /home/xj6eunsk9mjs/public_html/database_library/MysqliDb.php on line 1819
+[17-Nov-2019 08:05:49 UTC] PHP Notice:  Undefined index: user_id in /home/xj6eunsk9mjs/public_html/estimateStatus.php on line 261
+[17-Nov-2019 08:05:49 UTC] PHP Fatal error:  Uncaught Exception: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '' at line 1 query: select * from estimation where  user_id =  in /home/xj6eunsk9mjs/public_html/database_library/MysqliDb.php:1819
+Stack trace:
+#0 /home/xj6eunsk9mjs/public_html/database_library/MysqliDb.php(430): MysqliDb->_prepareQuery()
+#1 /home/xj6eunsk9mjs/public_html/estimateStatus.php(262): MysqliDb->rawQuery('select * from e...')
+#2 {main}
+  thrown in /home/xj6eunsk9mjs/public_html/database_library/MysqliDb.php on line 1819
+[17-Nov-2019 08:07:03 UTC] PHP Notice:  Undefined index: user_id in /home/xj6eunsk9mjs/public_html/estimateStatus.php on line 261
+[17-Nov-2019 08:07:03 UTC] PHP Fatal error:  Uncaught Exception: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '' at line 1 query: select * from estimation where  user_id =  in /home/xj6eunsk9mjs/public_html/database_library/MysqliDb.php:1819
+Stack trace:
+#0 /home/xj6eunsk9mjs/public_html/database_library/MysqliDb.php(430): MysqliDb->_prepareQuery()
+#1 /home/xj6eunsk9mjs/public_html/estimateStatus.php(262): MysqliDb->rawQuery('select * from e...')
+#2 {main}
+  thrown in /home/xj6eunsk9mjs/public_html/database_library/MysqliDb.php on line 1819
+[17-Nov-2019 08:12:58 UTC] PHP Notice:  Undefined index: user_id in /home/xj6eunsk9mjs/public_html/estimateStatus.php on line 255
+[17-Nov-2019 08:12:58 UTC] PHP Fatal error:  Uncaught Exception: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '' at line 1 query: select * from estimation where  user_id =  in /home/xj6eunsk9mjs/public_html/database_library/MysqliDb.php:1819
+Stack trace:
+#0 /home/xj6eunsk9mjs/public_html/database_library/MysqliDb.php(430): MysqliDb->_prepareQuery()
+#1 /home/xj6eunsk9mjs/public_html/estimateStatus.php(256): MysqliDb->rawQuery('select * from e...')
+#2 {main}
+  thrown in /home/xj6eunsk9mjs/public_html/database_library/MysqliDb.php on line 1819
+[17-Nov-2019 08:13:07 UTC] PHP Notice:  Undefined index: user_id in /home/xj6eunsk9mjs/public_html/estimateStatus.php on line 255
+[17-Nov-2019 08:13:07 UTC] PHP Fatal error:  Uncaught Exception: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '' at line 1 query: select * from estimation where  user_id =  in /home/xj6eunsk9mjs/public_html/database_library/MysqliDb.php:1819
+Stack trace:
+#0 /home/xj6eunsk9mjs/public_html/database_library/MysqliDb.php(430): MysqliDb->_prepareQuery()
+#1 /home/xj6eunsk9mjs/public_html/estimateStatus.php(256): MysqliDb->rawQuery('select * from e...')
+#2 {main}
+  thrown in /home/xj6eunsk9mjs/public_html/database_library/MysqliDb.php on line 1819
+[17-Nov-2019 08:13:45 UTC] PHP Notice:  Undefined index: user_id in /home/xj6eunsk9mjs/public_html/estimateStatus.php on line 255
+[17-Nov-2019 08:13:45 UTC] PHP Fatal error:  Uncaught Exception: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '' at line 1 query: select * from estimation where  user_id =  in /home/xj6eunsk9mjs/public_html/database_library/MysqliDb.php:1819
+Stack trace:
+#0 /home/xj6eunsk9mjs/public_html/database_library/MysqliDb.php(430): MysqliDb->_prepareQuery()
+#1 /home/xj6eunsk9mjs/public_html/estimateStatus.php(256): MysqliDb->rawQuery('select * from e...')
+#2 {main}
+  thrown in /home/xj6eunsk9mjs/public_html/database_library/MysqliDb.php on line 1819
+[17-Nov-2019 08:17:03 UTC] PHP Notice:  Undefined index: user_id in /home/xj6eunsk9mjs/public_html/estimateStatus.php on line 255
+[17-Nov-2019 08:17:03 UTC] PHP Fatal error:  Uncaught Exception: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '' at line 1 query: select * from estimation where  user_id =  in /home/xj6eunsk9mjs/public_html/database_library/MysqliDb.php:1819
+Stack trace:
+#0 /home/xj6eunsk9mjs/public_html/database_library/MysqliDb.php(430): MysqliDb->_prepareQuery()
+#1 /home/xj6eunsk9mjs/public_html/estimateStatus.php(256): MysqliDb->rawQuery('select * from e...')
+#2 {main}
+  thrown in /home/xj6eunsk9mjs/public_html/database_library/MysqliDb.php on line 1819
+[17-Nov-2019 08:18:31 UTC] PHP Notice:  Undefined index: user_id in /home/xj6eunsk9mjs/public_html/estimateStatus.php on line 254
+[17-Nov-2019 08:18:31 UTC] PHP Fatal error:  Uncaught Exception: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '' at line 1 query: select * from estimation where  user_id =  in /home/xj6eunsk9mjs/public_html/database_library/MysqliDb.php:1819
+Stack trace:
+#0 /home/xj6eunsk9mjs/public_html/database_library/MysqliDb.php(430): MysqliDb->_prepareQuery()
+#1 /home/xj6eunsk9mjs/public_html/estimateStatus.php(255): MysqliDb->rawQuery('select * from e...')
+#2 {main}
+  thrown in /home/xj6eunsk9mjs/public_html/database_library/MysqliDb.php on line 1819
+[17-Nov-2019 08:23:01 UTC] PHP Notice:  Undefined index: user_id in /home/xj6eunsk9mjs/public_html/estimateStatus.php on line 261
+[17-Nov-2019 08:23:01 UTC] PHP Fatal error:  Uncaught Exception: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '' at line 1 query: select * from estimation where  user_id =  in /home/xj6eunsk9mjs/public_html/database_library/MysqliDb.php:1819
+Stack trace:
+#0 /home/xj6eunsk9mjs/public_html/database_library/MysqliDb.php(430): MysqliDb->_prepareQuery()
+#1 /home/xj6eunsk9mjs/public_html/estimateStatus.php(262): MysqliDb->rawQuery('select * from e...')
+#2 {main}
+  thrown in /home/xj6eunsk9mjs/public_html/database_library/MysqliDb.php on line 1819
+[17-Nov-2019 08:26:22 UTC] PHP Notice:  Undefined index: user_id in /home/xj6eunsk9mjs/public_html/estimateStatus.php on line 259
+[17-Nov-2019 08:26:22 UTC] PHP Fatal error:  Uncaught Exception: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '' at line 1 query: select * from estimation where  user_id =  in /home/xj6eunsk9mjs/public_html/database_library/MysqliDb.php:1819
+Stack trace:
+#0 /home/xj6eunsk9mjs/public_html/database_library/MysqliDb.php(430): MysqliDb->_prepareQuery()
+#1 /home/xj6eunsk9mjs/public_html/estimateStatus.php(260): MysqliDb->rawQuery('select * from e...')
+#2 {main}
+  thrown in /home/xj6eunsk9mjs/public_html/database_library/MysqliDb.php on line 1819
+[17-Nov-2019 16:28:13 UTC] PHP Notice:  Undefined index: user_id in /home/xj6eunsk9mjs/public_html/estimateStatus.php on line 254
+[17-Nov-2019 16:28:13 UTC] PHP Fatal error:  Uncaught Exception: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '' at line 1 query: select * from estimation where  user_id =  in /home/xj6eunsk9mjs/public_html/database_library/MysqliDb.php:1819
+Stack trace:
+#0 /home/xj6eunsk9mjs/public_html/database_library/MysqliDb.php(430): MysqliDb->_prepareQuery()
+#1 /home/xj6eunsk9mjs/public_html/estimateStatus.php(255): MysqliDb->rawQuery('select * from e...')
+#2 {main}
+  thrown in /home/xj6eunsk9mjs/public_html/database_library/MysqliDb.php on line 1819
+[17-Nov-2019 16:28:26 UTC] PHP Notice:  Undefined index: user_id in /home/xj6eunsk9mjs/public_html/estimateStatus.php on line 254
+[17-Nov-2019 16:28:26 UTC] PHP Fatal error:  Uncaught Exception: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '' at line 1 query: select * from estimation where  user_id =  in /home/xj6eunsk9mjs/public_html/database_library/MysqliDb.php:1819
+Stack trace:
+#0 /home/xj6eunsk9mjs/public_html/database_library/MysqliDb.php(430): MysqliDb->_prepareQuery()
+#1 /home/xj6eunsk9mjs/public_html/estimateStatus.php(255): MysqliDb->rawQuery('select * from e...')
+#2 {main}
+  thrown in /home/xj6eunsk9mjs/public_html/database_library/MysqliDb.php on line 1819
+[17-Nov-2019 16:29:45 UTC] PHP Notice:  Undefined index: user_id in /home/xj6eunsk9mjs/public_html/estimateStatus.php on line 244
+[17-Nov-2019 16:29:45 UTC] PHP Fatal error:  Uncaught Exception: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '' at line 1 query: select * from estimation where  user_id =  in /home/xj6eunsk9mjs/public_html/database_library/MysqliDb.php:1819
+Stack trace:
+#0 /home/xj6eunsk9mjs/public_html/database_library/MysqliDb.php(430): MysqliDb->_prepareQuery()
+#1 /home/xj6eunsk9mjs/public_html/estimateStatus.php(245): MysqliDb->rawQuery('select * from e...')
+#2 {main}
+  thrown in /home/xj6eunsk9mjs/public_html/database_library/MysqliDb.php on line 1819
+[17-Nov-2019 16:30:18 UTC] PHP Notice:  Undefined index: user_id in /home/xj6eunsk9mjs/public_html/estimateStatus.php on line 254
+[17-Nov-2019 16:30:18 UTC] PHP Fatal error:  Uncaught Exception: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '' at line 1 query: select * from estimation where  user_id =  in /home/xj6eunsk9mjs/public_html/database_library/MysqliDb.php:1819
+Stack trace:
+#0 /home/xj6eunsk9mjs/public_html/database_library/MysqliDb.php(430): MysqliDb->_prepareQuery()
+#1 /home/xj6eunsk9mjs/public_html/estimateStatus.php(255): MysqliDb->rawQuery('select * from e...')
+#2 {main}
+  thrown in /home/xj6eunsk9mjs/public_html/database_library/MysqliDb.php on line 1819
+[17-Nov-2019 16:43:24 UTC] PHP Notice:  Undefined index: user_id in /home/xj6eunsk9mjs/public_html/estimateStatus.php on line 254
+[17-Nov-2019 16:43:24 UTC] PHP Fatal error:  Uncaught Exception: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '' at line 1 query: select * from estimation where  user_id =  in /home/xj6eunsk9mjs/public_html/database_library/MysqliDb.php:1819
+Stack trace:
+#0 /home/xj6eunsk9mjs/public_html/database_library/MysqliDb.php(430): MysqliDb->_prepareQuery()
+#1 /home/xj6eunsk9mjs/public_html/estimateStatus.php(255): MysqliDb->rawQuery('select * from e...')
+#2 {main}
+  thrown in /home/xj6eunsk9mjs/public_html/database_library/MysqliDb.php on line 1819
+[17-Nov-2019 16:46:55 UTC] PHP Notice:  Undefined index: user_id in /home/xj6eunsk9mjs/public_html/estimateStatus.php on line 256
+[17-Nov-2019 16:46:55 UTC] PHP Fatal error:  Uncaught Exception: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '' at line 1 query: select * from estimation where  user_id =  in /home/xj6eunsk9mjs/public_html/database_library/MysqliDb.php:1819
+Stack trace:
+#0 /home/xj6eunsk9mjs/public_html/database_library/MysqliDb.php(430): MysqliDb->_prepareQuery()
+#1 /home/xj6eunsk9mjs/public_html/estimateStatus.php(257): MysqliDb->rawQuery('select * from e...')
+#2 {main}
+  thrown in /home/xj6eunsk9mjs/public_html/database_library/MysqliDb.php on line 1819
+[17-Nov-2019 16:56:17 UTC] PHP Notice:  Undefined index: labour_type in /home/xj6eunsk9mjs/public_html/updatee.php on line 245
+[17-Nov-2019 16:56:17 UTC] PHP Notice:  Undefined index: labour_type in /home/xj6eunsk9mjs/public_html/updatee.php on line 246
+[17-Nov-2019 16:56:17 UTC] PHP Notice:  Undefined index: unit in /home/xj6eunsk9mjs/public_html/updatee.php on line 290
+[17-Nov-2019 16:56:17 UTC] PHP Notice:  Undefined index: labour_type in /home/xj6eunsk9mjs/public_html/updatee.php on line 245
+[17-Nov-2019 16:56:17 UTC] PHP Notice:  Undefined index: labour_type in /home/xj6eunsk9mjs/public_html/updatee.php on line 246
+[17-Nov-2019 16:56:17 UTC] PHP Notice:  Undefined index: unit in /home/xj6eunsk9mjs/public_html/updatee.php on line 290
+[17-Nov-2019 16:56:17 UTC] PHP Notice:  Undefined index: labour_type in /home/xj6eunsk9mjs/public_html/updatee.php on line 245
+[17-Nov-2019 16:56:17 UTC] PHP Notice:  Undefined index: labour_type in /home/xj6eunsk9mjs/public_html/updatee.php on line 246
+[17-Nov-2019 16:56:17 UTC] PHP Notice:  Undefined index: unit in /home/xj6eunsk9mjs/public_html/updatee.php on line 290
+[18-Nov-2019 00:46:26 UTC] PHP Notice:  Undefined index: labour_type in /home/xj6eunsk9mjs/public_html/updatee.php on line 271
+[18-Nov-2019 00:46:26 UTC] PHP Notice:  Undefined index: labour_type in /home/xj6eunsk9mjs/public_html/updatee.php on line 272
+[18-Nov-2019 00:46:26 UTC] PHP Notice:  Undefined index: unit in /home/xj6eunsk9mjs/public_html/updatee.php on line 316
+[18-Nov-2019 02:52:43 UTC] PHP Notice:  Undefined index: user_id in /home/xj6eunsk9mjs/public_html/update_profile.php on line 5
+[18-Nov-2019 02:52:43 UTC] PHP Fatal error:  Uncaught Exception: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '' at line 1 query: select * from register where  id =  in /home/xj6eunsk9mjs/public_html/database_library/MysqliDb.php:1819
+Stack trace:
+#0 /home/xj6eunsk9mjs/public_html/database_library/MysqliDb.php(430): MysqliDb->_prepareQuery()
+#1 /home/xj6eunsk9mjs/public_html/database_library/MysqliDb.php(464): MysqliDb->rawQuery('select * from r...', NULL)
+#2 /home/xj6eunsk9mjs/public_html/update_profile.php(6): MysqliDb->rawQueryOne('select * from r...')
+#3 {main}
+  thrown in /home/xj6eunsk9mjs/public_html/database_library/MysqliDb.php on line 1819
+[18-Nov-2019 02:52:51 UTC] PHP Notice:  Undefined index: user_id in /home/xj6eunsk9mjs/public_html/update_profile.php on line 5
+[18-Nov-2019 02:52:51 UTC] PHP Fatal error:  Uncaught Exception: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '' at line 1 query: select * from register where  id =  in /home/xj6eunsk9mjs/public_html/database_library/MysqliDb.php:1819
+Stack trace:
+#0 /home/xj6eunsk9mjs/public_html/database_library/MysqliDb.php(430): MysqliDb->_prepareQuery()
+#1 /home/xj6eunsk9mjs/public_html/database_library/MysqliDb.php(464): MysqliDb->rawQuery('select * from r...', NULL)
+#2 /home/xj6eunsk9mjs/public_html/update_profile.php(6): MysqliDb->rawQueryOne('select * from r...')
+#3 {main}
+  thrown in /home/xj6eunsk9mjs/public_html/database_library/MysqliDb.php on line 1819
+[18-Nov-2019 04:36:34 UTC] PHP Notice:  Undefined index: user_id in /home/xj6eunsk9mjs/public_html/update_profile.php on line 5
+[18-Nov-2019 04:36:34 UTC] PHP Fatal error:  Uncaught Exception: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '' at line 1 query: select * from register where  id =  in /home/xj6eunsk9mjs/public_html/database_library/MysqliDb.php:1819
+Stack trace:
+#0 /home/xj6eunsk9mjs/public_html/database_library/MysqliDb.php(430): MysqliDb->_prepareQuery()
+#1 /home/xj6eunsk9mjs/public_html/database_library/MysqliDb.php(464): MysqliDb->rawQuery('select * from r...', NULL)
+#2 /home/xj6eunsk9mjs/public_html/update_profile.php(6): MysqliDb->rawQueryOne('select * from r...')
+#3 {main}
+  thrown in /home/xj6eunsk9mjs/public_html/database_library/MysqliDb.php on line 1819
+[18-Nov-2019 18:05:45 UTC] PHP Notice:  Undefined index: labour_type in /home/xj6eunsk9mjs/public_html/updatee.php on line 271
+[18-Nov-2019 18:05:45 UTC] PHP Notice:  Undefined index: labour_type in /home/xj6eunsk9mjs/public_html/updatee.php on line 272
+[18-Nov-2019 18:05:45 UTC] PHP Notice:  Undefined index: unit in /home/xj6eunsk9mjs/public_html/updatee.php on line 316
+[18-Nov-2019 18:54:33 UTC] PHP Notice:  Undefined index: labour_type in /home/xj6eunsk9mjs/public_html/updatee.php on line 271
+[18-Nov-2019 18:54:33 UTC] PHP Notice:  Undefined index: labour_type in /home/xj6eunsk9mjs/public_html/updatee.php on line 272
+[18-Nov-2019 18:54:33 UTC] PHP Notice:  Undefined index: unit in /home/xj6eunsk9mjs/public_html/updatee.php on line 316
+[19-Nov-2019 00:28:12 UTC] PHP Notice:  Undefined index: user_id in /home/xj6eunsk9mjs/public_html/update_profile.php on line 5
+[19-Nov-2019 00:28:12 UTC] PHP Fatal error:  Uncaught Exception: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '' at line 1 query: select * from register where  id =  in /home/xj6eunsk9mjs/public_html/database_library/MysqliDb.php:1819
+Stack trace:
+#0 /home/xj6eunsk9mjs/public_html/database_library/MysqliDb.php(430): MysqliDb->_prepareQuery()
+#1 /home/xj6eunsk9mjs/public_html/database_library/MysqliDb.php(464): MysqliDb->rawQuery('select * from r...', NULL)
+#2 /home/xj6eunsk9mjs/public_html/update_profile.php(6): MysqliDb->rawQueryOne('select * from r...')
+#3 {main}
+  thrown in /home/xj6eunsk9mjs/public_html/database_library/MysqliDb.php on line 1819
+[19-Nov-2019 16:01:22 UTC] PHP Notice:  Undefined index: labour_type in /home/xj6eunsk9mjs/public_html/updatee.php on line 271
+[19-Nov-2019 16:01:22 UTC] PHP Notice:  Undefined index: labour_type in /home/xj6eunsk9mjs/public_html/updatee.php on line 272
+[19-Nov-2019 16:01:22 UTC] PHP Notice:  Undefined index: unit in /home/xj6eunsk9mjs/public_html/updatee.php on line 316
+[19-Nov-2019 16:05:42 UTC] PHP Notice:  Undefined index: labour_type in /home/xj6eunsk9mjs/public_html/updatee.php on line 271
+[19-Nov-2019 16:05:42 UTC] PHP Notice:  Undefined index: labour_type in /home/xj6eunsk9mjs/public_html/updatee.php on line 272
+[19-Nov-2019 16:05:42 UTC] PHP Notice:  Undefined index: unit in /home/xj6eunsk9mjs/public_html/updatee.php on line 316
+[19-Nov-2019 16:09:28 UTC] PHP Notice:  Undefined index: labour_type in /home/xj6eunsk9mjs/public_html/updatee.php on line 271
+[19-Nov-2019 16:09:28 UTC] PHP Notice:  Undefined index: labour_type in /home/xj6eunsk9mjs/public_html/updatee.php on line 272
+[19-Nov-2019 16:09:28 UTC] PHP Notice:  Undefined index: unit in /home/xj6eunsk9mjs/public_html/updatee.php on line 316
+[19-Nov-2019 16:10:37 UTC] PHP Notice:  Undefined index: labour_type in /home/xj6eunsk9mjs/public_html/updatee.php on line 271
+[19-Nov-2019 16:10:37 UTC] PHP Notice:  Undefined index: labour_type in /home/xj6eunsk9mjs/public_html/updatee.php on line 272
+[19-Nov-2019 16:10:37 UTC] PHP Notice:  Undefined index: unit in /home/xj6eunsk9mjs/public_html/updatee.php on line 316
+[19-Nov-2019 16:10:37 UTC] PHP Notice:  Undefined index: labour_type in /home/xj6eunsk9mjs/public_html/updatee.php on line 271
+[19-Nov-2019 16:10:37 UTC] PHP Notice:  Undefined index: labour_type in /home/xj6eunsk9mjs/public_html/updatee.php on line 272
+[19-Nov-2019 16:10:37 UTC] PHP Notice:  Undefined index: unit in /home/xj6eunsk9mjs/public_html/updatee.php on line 316
+[19-Nov-2019 16:10:37 UTC] PHP Notice:  Undefined index: labour_type in /home/xj6eunsk9mjs/public_html/updatee.php on line 271
+[19-Nov-2019 16:10:37 UTC] PHP Notice:  Undefined index: labour_type in /home/xj6eunsk9mjs/public_html/updatee.php on line 272
+[19-Nov-2019 16:10:37 UTC] PHP Notice:  Undefined index: unit in /home/xj6eunsk9mjs/public_html/updatee.php on line 316
+[19-Nov-2019 16:12:48 UTC] PHP Notice:  Undefined index: labour_type in /home/xj6eunsk9mjs/public_html/updatee.php on line 271
+[19-Nov-2019 16:12:48 UTC] PHP Notice:  Undefined index: labour_type in /home/xj6eunsk9mjs/public_html/updatee.php on line 272
+[19-Nov-2019 16:12:48 UTC] PHP Notice:  Undefined index: unit in /home/xj6eunsk9mjs/public_html/updatee.php on line 316
+[19-Nov-2019 16:12:48 UTC] PHP Notice:  Undefined index: labour_type in /home/xj6eunsk9mjs/public_html/updatee.php on line 271
+[19-Nov-2019 16:12:48 UTC] PHP Notice:  Undefined index: labour_type in /home/xj6eunsk9mjs/public_html/updatee.php on line 272
+[19-Nov-2019 16:12:48 UTC] PHP Notice:  Undefined index: unit in /home/xj6eunsk9mjs/public_html/updatee.php on line 316
+[19-Nov-2019 16:12:48 UTC] PHP Notice:  Undefined index: labour_type in /home/xj6eunsk9mjs/public_html/updatee.php on line 271
+[19-Nov-2019 16:12:48 UTC] PHP Notice:  Undefined index: labour_type in /home/xj6eunsk9mjs/public_html/updatee.php on line 272
+[19-Nov-2019 16:12:48 UTC] PHP Notice:  Undefined index: unit in /home/xj6eunsk9mjs/public_html/updatee.php on line 316
+[19-Nov-2019 16:12:55 UTC] PHP Notice:  Undefined index: labour_type in /home/xj6eunsk9mjs/public_html/updatee.php on line 271
+[19-Nov-2019 16:12:55 UTC] PHP Notice:  Undefined index: labour_type in /home/xj6eunsk9mjs/public_html/updatee.php on line 272
+[19-Nov-2019 16:12:55 UTC] PHP Notice:  Undefined index: unit in /home/xj6eunsk9mjs/public_html/updatee.php on line 316
+[19-Nov-2019 16:12:55 UTC] PHP Notice:  Undefined index: labour_type in /home/xj6eunsk9mjs/public_html/updatee.php on line 271
+[19-Nov-2019 16:12:55 UTC] PHP Notice:  Undefined index: labour_type in /home/xj6eunsk9mjs/public_html/updatee.php on line 272
+[19-Nov-2019 16:12:55 UTC] PHP Notice:  Undefined index: unit in /home/xj6eunsk9mjs/public_html/updatee.php on line 316
+[19-Nov-2019 16:12:55 UTC] PHP Notice:  Undefined index: labour_type in /home/xj6eunsk9mjs/public_html/updatee.php on line 271
+[19-Nov-2019 16:12:55 UTC] PHP Notice:  Undefined index: labour_type in /home/xj6eunsk9mjs/public_html/updatee.php on line 272
+[19-Nov-2019 16:12:55 UTC] PHP Notice:  Undefined index: unit in /home/xj6eunsk9mjs/public_html/updatee.php on line 316
+[19-Nov-2019 16:13:01 UTC] PHP Notice:  Undefined index: labour_type in /home/xj6eunsk9mjs/public_html/updatee.php on line 271
+[19-Nov-2019 16:13:01 UTC] PHP Notice:  Undefined index: labour_type in /home/xj6eunsk9mjs/public_html/updatee.php on line 272
+[19-Nov-2019 16:13:01 UTC] PHP Notice:  Undefined index: unit in /home/xj6eunsk9mjs/public_html/updatee.php on line 316
+[19-Nov-2019 16:13:01 UTC] PHP Notice:  Undefined index: labour_type in /home/xj6eunsk9mjs/public_html/updatee.php on line 271
+[19-Nov-2019 16:13:01 UTC] PHP Notice:  Undefined index: labour_type in /home/xj6eunsk9mjs/public_html/updatee.php on line 272
+[19-Nov-2019 16:13:01 UTC] PHP Notice:  Undefined index: unit in /home/xj6eunsk9mjs/public_html/updatee.php on line 316
+[19-Nov-2019 16:13:01 UTC] PHP Notice:  Undefined index: labour_type in /home/xj6eunsk9mjs/public_html/updatee.php on line 271
+[19-Nov-2019 16:13:01 UTC] PHP Notice:  Undefined index: labour_type in /home/xj6eunsk9mjs/public_html/updatee.php on line 272
+[19-Nov-2019 16:13:01 UTC] PHP Notice:  Undefined index: unit in /home/xj6eunsk9mjs/public_html/updatee.php on line 316
+[19-Nov-2019 16:13:41 UTC] PHP Notice:  Undefined index: labour_type in /home/xj6eunsk9mjs/public_html/updatee.php on line 271
+[19-Nov-2019 16:13:41 UTC] PHP Notice:  Undefined index: labour_type in /home/xj6eunsk9mjs/public_html/updatee.php on line 272
+[19-Nov-2019 16:13:41 UTC] PHP Notice:  Undefined index: unit in /home/xj6eunsk9mjs/public_html/updatee.php on line 316
+[19-Nov-2019 16:13:41 UTC] PHP Notice:  Undefined index: labour_type in /home/xj6eunsk9mjs/public_html/updatee.php on line 271
+[19-Nov-2019 16:13:41 UTC] PHP Notice:  Undefined index: labour_type in /home/xj6eunsk9mjs/public_html/updatee.php on line 272
+[19-Nov-2019 16:13:41 UTC] PHP Notice:  Undefined index: unit in /home/xj6eunsk9mjs/public_html/updatee.php on line 316
+[19-Nov-2019 16:13:41 UTC] PHP Notice:  Undefined index: labour_type in /home/xj6eunsk9mjs/public_html/updatee.php on line 271
+[19-Nov-2019 16:13:41 UTC] PHP Notice:  Undefined index: labour_type in /home/xj6eunsk9mjs/public_html/updatee.php on line 272
+[19-Nov-2019 16:13:41 UTC] PHP Notice:  Undefined index: unit in /home/xj6eunsk9mjs/public_html/updatee.php on line 316
+[19-Nov-2019 16:14:09 UTC] PHP Notice:  Undefined index: labour_type in /home/xj6eunsk9mjs/public_html/updatee.php on line 271
+[19-Nov-2019 16:14:09 UTC] PHP Notice:  Undefined index: labour_type in /home/xj6eunsk9mjs/public_html/updatee.php on line 272
+[19-Nov-2019 16:14:09 UTC] PHP Notice:  Undefined index: unit in /home/xj6eunsk9mjs/public_html/updatee.php on line 316
+[19-Nov-2019 16:15:06 UTC] PHP Notice:  Undefined index: labour_type in /home/xj6eunsk9mjs/public_html/updatee.php on line 271
+[19-Nov-2019 16:15:06 UTC] PHP Notice:  Undefined index: labour_type in /home/xj6eunsk9mjs/public_html/updatee.php on line 272
+[19-Nov-2019 16:15:06 UTC] PHP Notice:  Undefined index: unit in /home/xj6eunsk9mjs/public_html/updatee.php on line 316
+[19-Nov-2019 16:15:06 UTC] PHP Notice:  Undefined index: labour_type in /home/xj6eunsk9mjs/public_html/updatee.php on line 271
+[19-Nov-2019 16:15:06 UTC] PHP Notice:  Undefined index: labour_type in /home/xj6eunsk9mjs/public_html/updatee.php on line 272
+[19-Nov-2019 16:15:06 UTC] PHP Notice:  Undefined index: unit in /home/xj6eunsk9mjs/public_html/updatee.php on line 316
+[19-Nov-2019 16:15:06 UTC] PHP Notice:  Undefined index: labour_type in /home/xj6eunsk9mjs/public_html/updatee.php on line 271
+[19-Nov-2019 16:15:06 UTC] PHP Notice:  Undefined index: labour_type in /home/xj6eunsk9mjs/public_html/updatee.php on line 272
+[19-Nov-2019 16:15:06 UTC] PHP Notice:  Undefined index: unit in /home/xj6eunsk9mjs/public_html/updatee.php on line 316
+[19-Nov-2019 16:45:41 UTC] PHP Notice:  Undefined index: labour_type in /home/xj6eunsk9mjs/public_html/updatee.php on line 271
+[19-Nov-2019 16:45:41 UTC] PHP Notice:  Undefined index: labour_type in /home/xj6eunsk9mjs/public_html/updatee.php on line 272
+[19-Nov-2019 16:45:41 UTC] PHP Notice:  Undefined index: unit in /home/xj6eunsk9mjs/public_html/updatee.php on line 316
+[19-Nov-2019 17:42:30 UTC] PHP Notice:  Undefined index: user_id in /home/xj6eunsk9mjs/public_html/estimateStatus.php on line 254
+[19-Nov-2019 17:42:30 UTC] PHP Fatal error:  Uncaught Exception: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '' at line 1 query: select * from estimation where  user_id =  in /home/xj6eunsk9mjs/public_html/database_library/MysqliDb.php:1819
+Stack trace:
+#0 /home/xj6eunsk9mjs/public_html/database_library/MysqliDb.php(430): MysqliDb->_prepareQuery()
+#1 /home/xj6eunsk9mjs/public_html/estimateStatus.php(255): MysqliDb->rawQuery('select * from e...')
+#2 {main}
+  thrown in /home/xj6eunsk9mjs/public_html/database_library/MysqliDb.php on line 1819
+[19-Nov-2019 17:43:07 UTC] PHP Notice:  Undefined index: user_id in /home/xj6eunsk9mjs/public_html/update_profile.php on line 5
+[19-Nov-2019 17:43:07 UTC] PHP Fatal error:  Uncaught Exception: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '' at line 1 query: select * from register where  id =  in /home/xj6eunsk9mjs/public_html/database_library/MysqliDb.php:1819
+Stack trace:
+#0 /home/xj6eunsk9mjs/public_html/database_library/MysqliDb.php(430): MysqliDb->_prepareQuery()
+#1 /home/xj6eunsk9mjs/public_html/database_library/MysqliDb.php(464): MysqliDb->rawQuery('select * from r...', NULL)
+#2 /home/xj6eunsk9mjs/public_html/update_profile.php(6): MysqliDb->rawQueryOne('select * from r...')
+#3 {main}
+  thrown in /home/xj6eunsk9mjs/public_html/database_library/MysqliDb.php on line 1819
+[19-Nov-2019 17:43:48 UTC] PHP Notice:  Undefined index: user_id in /home/xj6eunsk9mjs/public_html/update_profile.php on line 5
+[19-Nov-2019 17:43:48 UTC] PHP Fatal error:  Uncaught Exception: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '' at line 1 query: select * from register where  id =  in /home/xj6eunsk9mjs/public_html/database_library/MysqliDb.php:1819
+Stack trace:
+#0 /home/xj6eunsk9mjs/public_html/database_library/MysqliDb.php(430): MysqliDb->_prepareQuery()
+#1 /home/xj6eunsk9mjs/public_html/database_library/MysqliDb.php(464): MysqliDb->rawQuery('select * from r...', NULL)
+#2 /home/xj6eunsk9mjs/public_html/update_profile.php(6): MysqliDb->rawQueryOne('select * from r...')
+#3 {main}
+  thrown in /home/xj6eunsk9mjs/public_html/database_library/MysqliDb.php on line 1819
+[19-Nov-2019 17:52:11 UTC] PHP Notice:  Undefined index: user_id in /home/xj6eunsk9mjs/public_html/updatee.php on line 5
+[19-Nov-2019 17:52:11 UTC] PHP Fatal error:  Uncaught Exception: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'AND id = 1' at line 1 query: select * from estimation where  user_id =  AND id = 1 in /home/xj6eunsk9mjs/public_html/database_library/MysqliDb.php:1819
+Stack trace:
+#0 /home/xj6eunsk9mjs/public_html/database_library/MysqliDb.php(430): MysqliDb->_prepareQuery()
+#1 /home/xj6eunsk9mjs/public_html/database_library/MysqliDb.php(464): MysqliDb->rawQuery('select * from e...', NULL)
+#2 /home/xj6eunsk9mjs/public_html/updatee.php(6): MysqliDb->rawQueryOne('select * from e...')
+#3 {main}
+  thrown in /home/xj6eunsk9mjs/public_html/database_library/MysqliDb.php on line 1819
+[19-Nov-2019 17:52:13 UTC] PHP Notice:  Undefined index: user_id in /home/xj6eunsk9mjs/public_html/updatee.php on line 5
+[19-Nov-2019 17:52:14 UTC] PHP Fatal error:  Uncaught Exception: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'AND id = 1' at line 1 query: select * from estimation where  user_id =  AND id = 1 in /home/xj6eunsk9mjs/public_html/database_library/MysqliDb.php:1819
+Stack trace:
+#0 /home/xj6eunsk9mjs/public_html/database_library/MysqliDb.php(430): MysqliDb->_prepareQuery()
+#1 /home/xj6eunsk9mjs/public_html/database_library/MysqliDb.php(464): MysqliDb->rawQuery('select * from e...', NULL)
+#2 /home/xj6eunsk9mjs/public_html/updatee.php(6): MysqliDb->rawQueryOne('select * from e...')
+#3 {main}
+  thrown in /home/xj6eunsk9mjs/public_html/database_library/MysqliDb.php on line 1819
+[19-Nov-2019 17:52:15 UTC] PHP Notice:  Undefined index: user_id in /home/xj6eunsk9mjs/public_html/updatee.php on line 5
+[19-Nov-2019 17:52:15 UTC] PHP Fatal error:  Uncaught Exception: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'AND id = 1' at line 1 query: select * from estimation where  user_id =  AND id = 1 in /home/xj6eunsk9mjs/public_html/database_library/MysqliDb.php:1819
+Stack trace:
+#0 /home/xj6eunsk9mjs/public_html/database_library/MysqliDb.php(430): MysqliDb->_prepareQuery()
+#1 /home/xj6eunsk9mjs/public_html/database_library/MysqliDb.php(464): MysqliDb->rawQuery('select * from e...', NULL)
+#2 /home/xj6eunsk9mjs/public_html/updatee.php(6): MysqliDb->rawQueryOne('select * from e...')
+#3 {main}
+  thrown in /home/xj6eunsk9mjs/public_html/database_library/MysqliDb.php on line 1819
+[19-Nov-2019 17:58:58 UTC] PHP Notice:  Undefined index: user_id in /home/xj6eunsk9mjs/public_html/estimateStatus.php on line 254
+[19-Nov-2019 17:58:58 UTC] PHP Fatal error:  Uncaught Exception: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '' at line 1 query: select * from estimation where  user_id =  in /home/xj6eunsk9mjs/public_html/database_library/MysqliDb.php:1819
+Stack trace:
+#0 /home/xj6eunsk9mjs/public_html/database_library/MysqliDb.php(430): MysqliDb->_prepareQuery()
+#1 /home/xj6eunsk9mjs/public_html/estimateStatus.php(255): MysqliDb->rawQuery('select * from e...')
+#2 {main}
+  thrown in /home/xj6eunsk9mjs/public_html/database_library/MysqliDb.php on line 1819
+[19-Nov-2019 17:59:45 UTC] PHP Notice:  Undefined index: user_id in /home/xj6eunsk9mjs/public_html/estimateStatus.php on line 254
+[19-Nov-2019 17:59:45 UTC] PHP Fatal error:  Uncaught Exception: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '' at line 1 query: select * from estimation where  user_id =  in /home/xj6eunsk9mjs/public_html/database_library/MysqliDb.php:1819
+Stack trace:
+#0 /home/xj6eunsk9mjs/public_html/database_library/MysqliDb.php(430): MysqliDb->_prepareQuery()
+#1 /home/xj6eunsk9mjs/public_html/estimateStatus.php(255): MysqliDb->rawQuery('select * from e...')
+#2 {main}
+  thrown in /home/xj6eunsk9mjs/public_html/database_library/MysqliDb.php on line 1819
+[19-Nov-2019 18:01:47 UTC] PHP Notice:  Undefined index: labour_type in /home/xj6eunsk9mjs/public_html/updatee.php on line 271
+[19-Nov-2019 18:01:47 UTC] PHP Notice:  Undefined index: labour_type in /home/xj6eunsk9mjs/public_html/updatee.php on line 272
+[19-Nov-2019 18:01:47 UTC] PHP Notice:  Undefined index: unit in /home/xj6eunsk9mjs/public_html/updatee.php on line 316
+[19-Nov-2019 18:01:47 UTC] PHP Notice:  Undefined index: labour_type in /home/xj6eunsk9mjs/public_html/updatee.php on line 271
+[19-Nov-2019 18:01:47 UTC] PHP Notice:  Undefined index: labour_type in /home/xj6eunsk9mjs/public_html/updatee.php on line 272
+[19-Nov-2019 18:01:47 UTC] PHP Notice:  Undefined index: unit in /home/xj6eunsk9mjs/public_html/updatee.php on line 316
+[19-Nov-2019 18:01:47 UTC] PHP Notice:  Undefined index: labour_type in /home/xj6eunsk9mjs/public_html/updatee.php on line 271
+[19-Nov-2019 18:01:47 UTC] PHP Notice:  Undefined index: labour_type in /home/xj6eunsk9mjs/public_html/updatee.php on line 272
+[19-Nov-2019 18:01:47 UTC] PHP Notice:  Undefined index: unit in /home/xj6eunsk9mjs/public_html/updatee.php on line 316
+[19-Nov-2019 18:03:18 UTC] PHP Notice:  Undefined index: labour_type in /home/xj6eunsk9mjs/public_html/updatee.php on line 271
+[19-Nov-2019 18:03:18 UTC] PHP Notice:  Undefined index: labour_type in /home/xj6eunsk9mjs/public_html/updatee.php on line 272
+[19-Nov-2019 18:03:18 UTC] PHP Notice:  Undefined index: unit in /home/xj6eunsk9mjs/public_html/updatee.php on line 316
+[19-Nov-2019 18:03:18 UTC] PHP Notice:  Undefined index: labour_type in /home/xj6eunsk9mjs/public_html/updatee.php on line 271
+[19-Nov-2019 18:03:18 UTC] PHP Notice:  Undefined index: labour_type in /home/xj6eunsk9mjs/public_html/updatee.php on line 272
+[19-Nov-2019 18:03:18 UTC] PHP Notice:  Undefined index: unit in /home/xj6eunsk9mjs/public_html/updatee.php on line 316
+[19-Nov-2019 18:03:18 UTC] PHP Notice:  Undefined index: labour_type in /home/xj6eunsk9mjs/public_html/updatee.php on line 271
+[19-Nov-2019 18:03:18 UTC] PHP Notice:  Undefined index: labour_type in /home/xj6eunsk9mjs/public_html/updatee.php on line 272
+[19-Nov-2019 18:03:18 UTC] PHP Notice:  Undefined index: unit in /home/xj6eunsk9mjs/public_html/updatee.php on line 316
+[19-Nov-2019 18:03:18 UTC] PHP Notice:  Undefined index: labour_type in /home/xj6eunsk9mjs/public_html/updatee.php on line 271
+[19-Nov-2019 18:03:18 UTC] PHP Notice:  Undefined index: labour_type in /home/xj6eunsk9mjs/public_html/updatee.php on line 272
+[19-Nov-2019 18:03:18 UTC] PHP Notice:  Undefined index: unit in /home/xj6eunsk9mjs/public_html/updatee.php on line 316
+[19-Nov-2019 18:06:54 UTC] PHP Notice:  Undefined index: user_id in /home/xj6eunsk9mjs/public_html/estimateStatus.php on line 254
+[19-Nov-2019 18:06:54 UTC] PHP Fatal error:  Uncaught Exception: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '' at line 1 query: select * from estimation where  user_id =  in /home/xj6eunsk9mjs/public_html/database_library/MysqliDb.php:1819
+Stack trace:
+#0 /home/xj6eunsk9mjs/public_html/database_library/MysqliDb.php(430): MysqliDb->_prepareQuery()
+#1 /home/xj6eunsk9mjs/public_html/estimateStatus.php(255): MysqliDb->rawQuery('select * from e...')
+#2 {main}
+  thrown in /home/xj6eunsk9mjs/public_html/database_library/MysqliDb.php on line 1819
+[19-Nov-2019 18:19:12 UTC] PHP Notice:  Undefined index: labour_type in /home/xj6eunsk9mjs/public_html/updatee.php on line 271
+[19-Nov-2019 18:19:12 UTC] PHP Notice:  Undefined index: labour_type in /home/xj6eunsk9mjs/public_html/updatee.php on line 272
+[19-Nov-2019 18:19:12 UTC] PHP Notice:  Undefined index: unit in /home/xj6eunsk9mjs/public_html/updatee.php on line 316
+[19-Nov-2019 18:19:12 UTC] PHP Notice:  Undefined index: labour_type in /home/xj6eunsk9mjs/public_html/updatee.php on line 271
+[19-Nov-2019 18:19:12 UTC] PHP Notice:  Undefined index: labour_type in /home/xj6eunsk9mjs/public_html/updatee.php on line 272
+[19-Nov-2019 18:19:12 UTC] PHP Notice:  Undefined index: unit in /home/xj6eunsk9mjs/public_html/updatee.php on line 316
+[19-Nov-2019 18:19:12 UTC] PHP Notice:  Undefined index: labour_type in /home/xj6eunsk9mjs/public_html/updatee.php on line 271
+[19-Nov-2019 18:19:12 UTC] PHP Notice:  Undefined index: labour_type in /home/xj6eunsk9mjs/public_html/updatee.php on line 272
+[19-Nov-2019 18:19:12 UTC] PHP Notice:  Undefined index: unit in /home/xj6eunsk9mjs/public_html/updatee.php on line 316
+[19-Nov-2019 18:19:12 UTC] PHP Notice:  Undefined index: labour_type in /home/xj6eunsk9mjs/public_html/updatee.php on line 271
+[19-Nov-2019 18:19:12 UTC] PHP Notice:  Undefined index: labour_type in /home/xj6eunsk9mjs/public_html/updatee.php on line 272
+[19-Nov-2019 18:19:12 UTC] PHP Notice:  Undefined index: unit in /home/xj6eunsk9mjs/public_html/updatee.php on line 316
+[19-Nov-2019 19:54:46 UTC] PHP Notice:  Undefined index: labour_type in /home/xj6eunsk9mjs/public_html/updatee.php on line 271
+[19-Nov-2019 19:54:46 UTC] PHP Notice:  Undefined index: labour_type in /home/xj6eunsk9mjs/public_html/updatee.php on line 272
+[19-Nov-2019 19:54:46 UTC] PHP Notice:  Undefined index: unit in /home/xj6eunsk9mjs/public_html/updatee.php on line 316
+[19-Nov-2019 23:52:08 UTC] PHP Notice:  Undefined index: user_id in /home/xj6eunsk9mjs/public_html/update_profile.php on line 5
+[19-Nov-2019 23:52:08 UTC] PHP Fatal error:  Uncaught Exception: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '' at line 1 query: select * from register where  id =  in /home/xj6eunsk9mjs/public_html/database_library/MysqliDb.php:1819
+Stack trace:
+#0 /home/xj6eunsk9mjs/public_html/database_library/MysqliDb.php(430): MysqliDb->_prepareQuery()
+#1 /home/xj6eunsk9mjs/public_html/database_library/MysqliDb.php(464): MysqliDb->rawQuery('select * from r...', NULL)
+#2 /home/xj6eunsk9mjs/public_html/update_profile.php(6): MysqliDb->rawQueryOne('select * from r...')
+#3 {main}
+  thrown in /home/xj6eunsk9mjs/public_html/database_library/MysqliDb.php on line 1819
+[19-Nov-2019 23:52:18 UTC] PHP Notice:  Undefined index: user_id in /home/xj6eunsk9mjs/public_html/update_profile.php on line 5
+[19-Nov-2019 23:52:18 UTC] PHP Fatal error:  Uncaught Exception: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '' at line 1 query: select * from register where  id =  in /home/xj6eunsk9mjs/public_html/database_library/MysqliDb.php:1819
+Stack trace:
+#0 /home/xj6eunsk9mjs/public_html/database_library/MysqliDb.php(430): MysqliDb->_prepareQuery()
+#1 /home/xj6eunsk9mjs/public_html/database_library/MysqliDb.php(464): MysqliDb->rawQuery('select * from r...', NULL)
+#2 /home/xj6eunsk9mjs/public_html/update_profile.php(6): MysqliDb->rawQueryOne('select * from r...')
+#3 {main}
+  thrown in /home/xj6eunsk9mjs/public_html/database_library/MysqliDb.php on line 1819
+[19-Nov-2019 23:52:20 UTC] PHP Notice:  Undefined index: firstName in /home/xj6eunsk9mjs/public_html/estimateStatus.php on line 181
+[19-Nov-2019 23:52:20 UTC] PHP Notice:  Undefined index: user_id in /home/xj6eunsk9mjs/public_html/estimateStatus.php on line 257
+[19-Nov-2019 23:52:20 UTC] PHP Fatal error:  Uncaught Exception: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '' at line 1 query: select * from estimation where  user_id =  in /home/xj6eunsk9mjs/public_html/database_library/MysqliDb.php:1819
+Stack trace:
+#0 /home/xj6eunsk9mjs/public_html/database_library/MysqliDb.php(430): MysqliDb->_prepareQuery()
+#1 /home/xj6eunsk9mjs/public_html/estimateStatus.php(258): MysqliDb->rawQuery('select * from e...')
+#2 {main}
+  thrown in /home/xj6eunsk9mjs/public_html/database_library/MysqliDb.php on line 1819
+[20-Nov-2019 01:47:41 UTC] PHP Notice:  Undefined index: user_id in /home/xj6eunsk9mjs/public_html/update_profile.php on line 5
+[20-Nov-2019 01:47:41 UTC] PHP Fatal error:  Uncaught Exception: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '' at line 1 query: select * from register where  id =  in /home/xj6eunsk9mjs/public_html/database_library/MysqliDb.php:1819
+Stack trace:
+#0 /home/xj6eunsk9mjs/public_html/database_library/MysqliDb.php(430): MysqliDb->_prepareQuery()
+#1 /home/xj6eunsk9mjs/public_html/database_library/MysqliDb.php(464): MysqliDb->rawQuery('select * from r...', NULL)
+#2 /home/xj6eunsk9mjs/public_html/update_profile.php(6): MysqliDb->rawQueryOne('select * from r...')
+#3 {main}
+  thrown in /home/xj6eunsk9mjs/public_html/database_library/MysqliDb.php on line 1819
+[20-Nov-2019 06:02:07 UTC] PHP Notice:  Undefined index: labour_type in /home/xj6eunsk9mjs/public_html/updatee.php on line 271
+[20-Nov-2019 06:02:07 UTC] PHP Notice:  Undefined index: labour_type in /home/xj6eunsk9mjs/public_html/updatee.php on line 272
+[20-Nov-2019 06:02:07 UTC] PHP Notice:  Undefined index: unit in /home/xj6eunsk9mjs/public_html/updatee.php on line 316
+[20-Nov-2019 06:02:07 UTC] PHP Notice:  Undefined index: labour_type in /home/xj6eunsk9mjs/public_html/updatee.php on line 271
+[20-Nov-2019 06:02:07 UTC] PHP Notice:  Undefined index: labour_type in /home/xj6eunsk9mjs/public_html/updatee.php on line 272
+[20-Nov-2019 06:02:07 UTC] PHP Notice:  Undefined index: unit in /home/xj6eunsk9mjs/public_html/updatee.php on line 316
+[20-Nov-2019 06:02:21 UTC] PHP Notice:  Undefined index: labour_type in /home/xj6eunsk9mjs/public_html/updatee.php on line 271
+[20-Nov-2019 06:02:21 UTC] PHP Notice:  Undefined index: labour_type in /home/xj6eunsk9mjs/public_html/updatee.php on line 272
+[20-Nov-2019 06:02:21 UTC] PHP Notice:  Undefined index: unit in /home/xj6eunsk9mjs/public_html/updatee.php on line 316
+[20-Nov-2019 06:02:21 UTC] PHP Notice:  Undefined index: labour_type in /home/xj6eunsk9mjs/public_html/updatee.php on line 271
+[20-Nov-2019 06:02:21 UTC] PHP Notice:  Undefined index: labour_type in /home/xj6eunsk9mjs/public_html/updatee.php on line 272
+[20-Nov-2019 06:02:21 UTC] PHP Notice:  Undefined index: unit in /home/xj6eunsk9mjs/public_html/updatee.php on line 316
+[20-Nov-2019 06:02:21 UTC] PHP Notice:  Undefined index: labour_type in /home/xj6eunsk9mjs/public_html/updatee.php on line 271
+[20-Nov-2019 06:02:21 UTC] PHP Notice:  Undefined index: labour_type in /home/xj6eunsk9mjs/public_html/updatee.php on line 272
+[20-Nov-2019 06:02:21 UTC] PHP Notice:  Undefined index: unit in /home/xj6eunsk9mjs/public_html/updatee.php on line 316
+[20-Nov-2019 11:28:22 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function base_url() in /home/xj6eunsk9mjs/public_html/signUp.php:181
+Stack trace:
+#0 {main}
+  thrown in /home/xj6eunsk9mjs/public_html/signUp.php on line 181
+[20-Nov-2019 11:32:34 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function base_url() in /home/xj6eunsk9mjs/public_html/signUp.php:181
+Stack trace:
+#0 {main}
+  thrown in /home/xj6eunsk9mjs/public_html/signUp.php on line 181
+[20-Nov-2019 11:36:23 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function base_url() in /home/xj6eunsk9mjs/public_html/signUp.php:181
+Stack trace:
+#0 {main}
+  thrown in /home/xj6eunsk9mjs/public_html/signUp.php on line 181
+[20-Nov-2019 11:42:07 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function base_url() in /home/xj6eunsk9mjs/public_html/signUp.php:171
+Stack trace:
+#0 {main}
+  thrown in /home/xj6eunsk9mjs/public_html/signUp.php on line 171
+[20-Nov-2019 12:14:12 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function base_url() in /home/xj6eunsk9mjs/public_html/signUp.php:171
+Stack trace:
+#0 {main}
+  thrown in /home/xj6eunsk9mjs/public_html/signUp.php on line 171
+[20-Nov-2019 12:15:01 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function base_url() in /home/xj6eunsk9mjs/public_html/signUp.php:171
+Stack trace:
+#0 {main}
+  thrown in /home/xj6eunsk9mjs/public_html/signUp.php on line 171
+[20-Nov-2019 12:16:31 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function base_url() in /home/xj6eunsk9mjs/public_html/signUp.php:171
+Stack trace:
+#0 {main}
+  thrown in /home/xj6eunsk9mjs/public_html/signUp.php on line 171
+[20-Nov-2019 12:16:35 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function base_url() in /home/xj6eunsk9mjs/public_html/signUp.php:171
+Stack trace:
+#0 {main}
+  thrown in /home/xj6eunsk9mjs/public_html/signUp.php on line 171
+[20-Nov-2019 12:17:12 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function base_url() in /home/xj6eunsk9mjs/public_html/signUp.php:171
+Stack trace:
+#0 {main}
+  thrown in /home/xj6eunsk9mjs/public_html/signUp.php on line 171
+[20-Nov-2019 12:19:45 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function base_url() in /home/xj6eunsk9mjs/public_html/signUp.php:171
+Stack trace:
+#0 {main}
+  thrown in /home/xj6eunsk9mjs/public_html/signUp.php on line 171
+[20-Nov-2019 12:21:22 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function base_url() in /home/xj6eunsk9mjs/public_html/signUp.php:171
+Stack trace:
+#0 {main}
+  thrown in /home/xj6eunsk9mjs/public_html/signUp.php on line 171
+[20-Nov-2019 12:22:55 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function base_url() in /home/xj6eunsk9mjs/public_html/signUp.php:171
+Stack trace:
+#0 {main}
+  thrown in /home/xj6eunsk9mjs/public_html/signUp.php on line 171
+[20-Nov-2019 12:24:09 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function base_url() in /home/xj6eunsk9mjs/public_html/signUp.php:171
+Stack trace:
+#0 {main}
+  thrown in /home/xj6eunsk9mjs/public_html/signUp.php on line 171
+[20-Nov-2019 12:25:29 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function base_url() in /home/xj6eunsk9mjs/public_html/signUp.php:171
+Stack trace:
+#0 {main}
+  thrown in /home/xj6eunsk9mjs/public_html/signUp.php on line 171
+[20-Nov-2019 12:25:37 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function base_url() in /home/xj6eunsk9mjs/public_html/signUp.php:171
+Stack trace:
+#0 {main}
+  thrown in /home/xj6eunsk9mjs/public_html/signUp.php on line 171
+[20-Nov-2019 12:26:27 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function base_url() in /home/xj6eunsk9mjs/public_html/signUp.php:171
+Stack trace:
+#0 {main}
+  thrown in /home/xj6eunsk9mjs/public_html/signUp.php on line 171
+[20-Nov-2019 12:29:03 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function base_url() in /home/xj6eunsk9mjs/public_html/signUp.php:171
+Stack trace:
+#0 {main}
+  thrown in /home/xj6eunsk9mjs/public_html/signUp.php on line 171
+[20-Nov-2019 12:29:10 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function base_url() in /home/xj6eunsk9mjs/public_html/signUp.php:171
+Stack trace:
+#0 {main}
+  thrown in /home/xj6eunsk9mjs/public_html/signUp.php on line 171
+[20-Nov-2019 12:31:58 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function base_url() in /home/xj6eunsk9mjs/public_html/signUp.php:171
+Stack trace:
+#0 {main}
+  thrown in /home/xj6eunsk9mjs/public_html/signUp.php on line 171
+[20-Nov-2019 14:10:44 UTC] PHP Notice:  Undefined index: user_id in /home/xj6eunsk9mjs/public_html/update_profile.php on line 5
+[20-Nov-2019 14:10:44 UTC] PHP Fatal error:  Uncaught Exception: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '' at line 1 query: select * from register where  id =  in /home/xj6eunsk9mjs/public_html/database_library/MysqliDb.php:1834
+Stack trace:
+#0 /home/xj6eunsk9mjs/public_html/database_library/MysqliDb.php(430): MysqliDb->_prepareQuery()
+#1 /home/xj6eunsk9mjs/public_html/database_library/MysqliDb.php(464): MysqliDb->rawQuery('select * from r...', NULL)
+#2 /home/xj6eunsk9mjs/public_html/update_profile.php(6): MysqliDb->rawQueryOne('select * from r...')
+#3 {main}
+  thrown in /home/xj6eunsk9mjs/public_html/database_library/MysqliDb.php on line 1834
+[20-Nov-2019 16:02:22 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function base_url() in /home/xj6eunsk9mjs/public_html/signUp.php:171
+Stack trace:
+#0 {main}
+  thrown in /home/xj6eunsk9mjs/public_html/signUp.php on line 171
+[20-Nov-2019 21:09:15 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function base_url() in /home/xj6eunsk9mjs/public_html/signUp.php:171
+Stack trace:
+#0 {main}
+  thrown in /home/xj6eunsk9mjs/public_html/signUp.php on line 171
+[20-Nov-2019 21:09:19 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function base_url() in /home/xj6eunsk9mjs/public_html/signUp.php:171
+Stack trace:
+#0 {main}
+  thrown in /home/xj6eunsk9mjs/public_html/signUp.php on line 171
+[20-Nov-2019 21:10:59 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function base_url() in /home/xj6eunsk9mjs/public_html/signUp.php:171
+Stack trace:
+#0 {main}
+  thrown in /home/xj6eunsk9mjs/public_html/signUp.php on line 171
+[21-Nov-2019 04:21:01 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function base_url() in /home/xj6eunsk9mjs/public_html/signUp.php:171
+Stack trace:
+#0 {main}
+  thrown in /home/xj6eunsk9mjs/public_html/signUp.php on line 171
+[21-Nov-2019 04:33:15 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function base_url() in /home/xj6eunsk9mjs/public_html/signUp.php:171
+Stack trace:
+#0 {main}
+  thrown in /home/xj6eunsk9mjs/public_html/signUp.php on line 171
+[21-Nov-2019 04:35:00 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function base_url() in /home/xj6eunsk9mjs/public_html/signUp.php:171
+Stack trace:
+#0 {main}
+  thrown in /home/xj6eunsk9mjs/public_html/signUp.php on line 171
+[21-Nov-2019 06:05:57 UTC] PHP Notice:  Undefined index: code in /home/xj6eunsk9mjs/public_html/newPassword.php on line 152
+[21-Nov-2019 06:05:57 UTC] PHP Notice:  Undefined index: code in /home/xj6eunsk9mjs/public_html/newPassword.php on line 152
+[21-Nov-2019 06:05:57 UTC] PHP Notice:  Undefined index: code in /home/xj6eunsk9mjs/public_html/newPassword.php on line 152
+[21-Nov-2019 06:05:57 UTC] PHP Notice:  Undefined index: code in /home/xj6eunsk9mjs/public_html/newPassword.php on line 152
+[21-Nov-2019 06:05:57 UTC] PHP Notice:  Undefined index: code in /home/xj6eunsk9mjs/public_html/newPassword.php on line 152
+[21-Nov-2019 06:05:57 UTC] PHP Notice:  Undefined index: code in /home/xj6eunsk9mjs/public_html/newPassword.php on line 152
+[21-Nov-2019 06:05:57 UTC] PHP Notice:  Undefined index: code in /home/xj6eunsk9mjs/public_html/newPassword.php on line 152
+[21-Nov-2019 06:05:57 UTC] PHP Notice:  Undefined index: code in /home/xj6eunsk9mjs/public_html/newPassword.php on line 152
+[21-Nov-2019 06:05:58 UTC] PHP Notice:  Undefined index: code in /home/xj6eunsk9mjs/public_html/newPassword.php on line 152
+[21-Nov-2019 06:12:05 UTC] PHP Notice:  Undefined index: code in /home/xj6eunsk9mjs/public_html/newPassword.php on line 152
+[21-Nov-2019 06:12:06 UTC] PHP Notice:  Undefined index: code in /home/xj6eunsk9mjs/public_html/newPassword.php on line 152
+[21-Nov-2019 06:12:06 UTC] PHP Notice:  Undefined index: code in /home/xj6eunsk9mjs/public_html/newPassword.php on line 152
+[21-Nov-2019 06:12:07 UTC] PHP Notice:  Undefined index: code in /home/xj6eunsk9mjs/public_html/newPassword.php on line 152
+[21-Nov-2019 06:12:07 UTC] PHP Notice:  Undefined index: code in /home/xj6eunsk9mjs/public_html/newPassword.php on line 152
+[21-Nov-2019 06:12:07 UTC] PHP Notice:  Undefined index: code in /home/xj6eunsk9mjs/public_html/newPassword.php on line 152
+[21-Nov-2019 06:12:07 UTC] PHP Notice:  Undefined index: code in /home/xj6eunsk9mjs/public_html/newPassword.php on line 152
+[21-Nov-2019 06:12:08 UTC] PHP Notice:  Undefined index: code in /home/xj6eunsk9mjs/public_html/newPassword.php on line 152
+[21-Nov-2019 06:12:08 UTC] PHP Notice:  Undefined index: code in /home/xj6eunsk9mjs/public_html/newPassword.php on line 152
+[21-Nov-2019 06:15:30 UTC] PHP Notice:  Undefined index: code in /home/xj6eunsk9mjs/public_html/newPassword.php on line 150
+[21-Nov-2019 06:15:31 UTC] PHP Notice:  Undefined index: code in /home/xj6eunsk9mjs/public_html/newPassword.php on line 150
+[21-Nov-2019 06:15:31 UTC] PHP Notice:  Undefined index: code in /home/xj6eunsk9mjs/public_html/newPassword.php on line 150
+[21-Nov-2019 06:15:31 UTC] PHP Notice:  Undefined index: code in /home/xj6eunsk9mjs/public_html/newPassword.php on line 150
+[21-Nov-2019 06:15:31 UTC] PHP Notice:  Undefined index: code in /home/xj6eunsk9mjs/public_html/newPassword.php on line 150
+[21-Nov-2019 06:15:31 UTC] PHP Notice:  Undefined index: code in /home/xj6eunsk9mjs/public_html/newPassword.php on line 150
+[21-Nov-2019 06:15:31 UTC] PHP Notice:  Undefined index: code in /home/xj6eunsk9mjs/public_html/newPassword.php on line 150
+[21-Nov-2019 06:15:32 UTC] PHP Notice:  Undefined index: code in /home/xj6eunsk9mjs/public_html/newPassword.php on line 150
+[21-Nov-2019 06:15:32 UTC] PHP Notice:  Undefined index: code in /home/xj6eunsk9mjs/public_html/newPassword.php on line 150
+[21-Nov-2019 06:17:01 UTC] PHP Notice:  Undefined index: code in /home/xj6eunsk9mjs/public_html/newPassword.php on line 150
+[21-Nov-2019 06:17:04 UTC] PHP Notice:  Undefined index: code in /home/xj6eunsk9mjs/public_html/newPassword.php on line 150
+[21-Nov-2019 06:17:04 UTC] PHP Notice:  Undefined index: code in /home/xj6eunsk9mjs/public_html/newPassword.php on line 150
+[21-Nov-2019 06:17:04 UTC] PHP Notice:  Undefined index: code in /home/xj6eunsk9mjs/public_html/newPassword.php on line 150
+[21-Nov-2019 06:17:04 UTC] PHP Notice:  Undefined index: code in /home/xj6eunsk9mjs/public_html/newPassword.php on line 150
+[21-Nov-2019 06:17:04 UTC] PHP Notice:  Undefined index: code in /home/xj6eunsk9mjs/public_html/newPassword.php on line 150
+[21-Nov-2019 06:17:06 UTC] PHP Notice:  Undefined index: code in /home/xj6eunsk9mjs/public_html/newPassword.php on line 150
+[21-Nov-2019 06:17:06 UTC] PHP Notice:  Undefined index: code in /home/xj6eunsk9mjs/public_html/newPassword.php on line 150
+[21-Nov-2019 06:18:10 UTC] PHP Notice:  Undefined index: code in /home/xj6eunsk9mjs/public_html/newPassword.php on line 148
+[21-Nov-2019 06:18:11 UTC] PHP Notice:  Undefined index: code in /home/xj6eunsk9mjs/public_html/newPassword.php on line 148
+[21-Nov-2019 06:18:11 UTC] PHP Notice:  Undefined index: code in /home/xj6eunsk9mjs/public_html/newPassword.php on line 148
+[21-Nov-2019 06:18:11 UTC] PHP Notice:  Undefined index: code in /home/xj6eunsk9mjs/public_html/newPassword.php on line 148
+[21-Nov-2019 06:18:11 UTC] PHP Notice:  Undefined index: code in /home/xj6eunsk9mjs/public_html/newPassword.php on line 148
+[21-Nov-2019 06:18:11 UTC] PHP Notice:  Undefined index: code in /home/xj6eunsk9mjs/public_html/newPassword.php on line 148
+[21-Nov-2019 06:18:14 UTC] PHP Notice:  Undefined index: code in /home/xj6eunsk9mjs/public_html/newPassword.php on line 148
+[21-Nov-2019 06:18:14 UTC] PHP Notice:  Undefined index: code in /home/xj6eunsk9mjs/public_html/newPassword.php on line 148
+[21-Nov-2019 06:19:22 UTC] PHP Notice:  Undefined index: code in /home/xj6eunsk9mjs/public_html/newPassword.php on line 147
+[21-Nov-2019 06:19:25 UTC] PHP Notice:  Undefined index: code in /home/xj6eunsk9mjs/public_html/newPassword.php on line 147
+[21-Nov-2019 06:19:25 UTC] PHP Notice:  Undefined index: code in /home/xj6eunsk9mjs/public_html/newPassword.php on line 147
+[21-Nov-2019 06:19:25 UTC] PHP Notice:  Undefined index: code in /home/xj6eunsk9mjs/public_html/newPassword.php on line 147
+[21-Nov-2019 06:19:25 UTC] PHP Notice:  Undefined index: code in /home/xj6eunsk9mjs/public_html/newPassword.php on line 147
+[21-Nov-2019 06:19:25 UTC] PHP Notice:  Undefined index: code in /home/xj6eunsk9mjs/public_html/newPassword.php on line 147
+[21-Nov-2019 06:19:27 UTC] PHP Notice:  Undefined index: code in /home/xj6eunsk9mjs/public_html/newPassword.php on line 147
+[21-Nov-2019 06:19:27 UTC] PHP Notice:  Undefined index: code in /home/xj6eunsk9mjs/public_html/newPassword.php on line 147
+[21-Nov-2019 06:21:27 UTC] PHP Notice:  Undefined index: code in /home/xj6eunsk9mjs/public_html/newPassword.php on line 148
+[21-Nov-2019 06:21:29 UTC] PHP Notice:  Undefined index: code in /home/xj6eunsk9mjs/public_html/newPassword.php on line 148
+[21-Nov-2019 06:21:29 UTC] PHP Notice:  Undefined index: code in /home/xj6eunsk9mjs/public_html/newPassword.php on line 148
+[21-Nov-2019 06:21:29 UTC] PHP Notice:  Undefined index: code in /home/xj6eunsk9mjs/public_html/newPassword.php on line 148
+[21-Nov-2019 06:21:29 UTC] PHP Notice:  Undefined index: code in /home/xj6eunsk9mjs/public_html/newPassword.php on line 148
+[21-Nov-2019 06:21:30 UTC] PHP Notice:  Undefined index: code in /home/xj6eunsk9mjs/public_html/newPassword.php on line 148
+[21-Nov-2019 06:21:32 UTC] PHP Notice:  Undefined index: code in /home/xj6eunsk9mjs/public_html/newPassword.php on line 148
+[21-Nov-2019 06:21:32 UTC] PHP Notice:  Undefined index: code in /home/xj6eunsk9mjs/public_html/newPassword.php on line 148
+[21-Nov-2019 06:23:04 UTC] PHP Notice:  Undefined index: code in /home/xj6eunsk9mjs/public_html/newPassword.php on line 148
+[21-Nov-2019 06:27:35 UTC] PHP Notice:  Undefined variable: _GEt in /home/xj6eunsk9mjs/public_html/newPassword.php on line 168
+[21-Nov-2019 06:27:37 UTC] PHP Notice:  Undefined variable: _GEt in /home/xj6eunsk9mjs/public_html/newPassword.php on line 168
+[21-Nov-2019 06:27:39 UTC] PHP Notice:  Undefined variable: _GEt in /home/xj6eunsk9mjs/public_html/newPassword.php on line 168
+[21-Nov-2019 06:27:39 UTC] PHP Notice:  Undefined variable: _GEt in /home/xj6eunsk9mjs/public_html/newPassword.php on line 168
+[21-Nov-2019 06:27:39 UTC] PHP Notice:  Undefined variable: _GEt in /home/xj6eunsk9mjs/public_html/newPassword.php on line 168
+[21-Nov-2019 06:27:39 UTC] PHP Notice:  Undefined variable: _GEt in /home/xj6eunsk9mjs/public_html/newPassword.php on line 168
+[21-Nov-2019 06:27:39 UTC] PHP Notice:  Undefined variable: _GEt in /home/xj6eunsk9mjs/public_html/newPassword.php on line 168
+[21-Nov-2019 06:27:39 UTC] PHP Notice:  Undefined variable: _GEt in /home/xj6eunsk9mjs/public_html/newPassword.php on line 168
+[21-Nov-2019 06:27:41 UTC] PHP Notice:  Undefined variable: _GEt in /home/xj6eunsk9mjs/public_html/newPassword.php on line 168
+[21-Nov-2019 06:29:30 UTC] PHP Notice:  Undefined variable: _GEt in /home/xj6eunsk9mjs/public_html/newPassword.php on line 168
+[21-Nov-2019 06:29:40 UTC] PHP Notice:  Undefined variable: _GEt in /home/xj6eunsk9mjs/public_html/newPassword.php on line 168
+[21-Nov-2019 06:30:32 UTC] PHP Warning:  Use of undefined constant BASE_URL - assumed 'BASE_URL' (this will throw an Error in a future version of PHP) in /home/xj6eunsk9mjs/public_html/newPassword.php on line 79
+[21-Nov-2019 06:30:32 UTC] PHP Warning:  Use of undefined constant BASE_URL - assumed 'BASE_URL' (this will throw an Error in a future version of PHP) in /home/xj6eunsk9mjs/public_html/newPassword.php on line 81
+[21-Nov-2019 06:30:32 UTC] PHP Warning:  Use of undefined constant BASE_URL - assumed 'BASE_URL' (this will throw an Error in a future version of PHP) in /home/xj6eunsk9mjs/public_html/newPassword.php on line 83
+[21-Nov-2019 06:30:32 UTC] PHP Warning:  Use of undefined constant BASE_URL - assumed 'BASE_URL' (this will throw an Error in a future version of PHP) in /home/xj6eunsk9mjs/public_html/newPassword.php on line 84
+[21-Nov-2019 06:30:32 UTC] PHP Notice:  Undefined variable: _GEt in /home/xj6eunsk9mjs/public_html/newPassword.php on line 163
+[21-Nov-2019 06:30:32 UTC] PHP Warning:  Use of undefined constant BASE_URL - assumed 'BASE_URL' (this will throw an Error in a future version of PHP) in /home/xj6eunsk9mjs/public_html/newPassword.php on line 182
+[21-Nov-2019 06:30:32 UTC] PHP Warning:  Use of undefined constant BASE_URL - assumed 'BASE_URL' (this will throw an Error in a future version of PHP) in /home/xj6eunsk9mjs/public_html/newPassword.php on line 184
+[21-Nov-2019 06:30:32 UTC] PHP Warning:  Use of undefined constant BASE_URL - assumed 'BASE_URL' (this will throw an Error in a future version of PHP) in /home/xj6eunsk9mjs/public_html/newPassword.php on line 186
+[21-Nov-2019 06:30:32 UTC] PHP Warning:  Use of undefined constant BASE_URL - assumed 'BASE_URL' (this will throw an Error in a future version of PHP) in /home/xj6eunsk9mjs/public_html/newPassword.php on line 188
+[21-Nov-2019 06:30:32 UTC] PHP Warning:  Use of undefined constant BASE_URL - assumed 'BASE_URL' (this will throw an Error in a future version of PHP) in /home/xj6eunsk9mjs/public_html/newPassword.php on line 192
+[21-Nov-2019 06:30:32 UTC] PHP Warning:  Use of undefined constant BASE_URL - assumed 'BASE_URL' (this will throw an Error in a future version of PHP) in /home/xj6eunsk9mjs/public_html/newPassword.php on line 193
+[21-Nov-2019 06:30:34 UTC] PHP Warning:  Use of undefined constant BASE_URL - assumed 'BASE_URL' (this will throw an Error in a future version of PHP) in /home/xj6eunsk9mjs/public_html/newPassword.php on line 79
+[21-Nov-2019 06:30:34 UTC] PHP Warning:  Use of undefined constant BASE_URL - assumed 'BASE_URL' (this will throw an Error in a future version of PHP) in /home/xj6eunsk9mjs/public_html/newPassword.php on line 81
+[21-Nov-2019 06:30:34 UTC] PHP Warning:  Use of undefined constant BASE_URL - assumed 'BASE_URL' (this will throw an Error in a future version of PHP) in /home/xj6eunsk9mjs/public_html/newPassword.php on line 83
+[21-Nov-2019 06:30:34 UTC] PHP Warning:  Use of undefined constant BASE_URL - assumed 'BASE_URL' (this will throw an Error in a future version of PHP) in /home/xj6eunsk9mjs/public_html/newPassword.php on line 84
+[21-Nov-2019 06:30:34 UTC] PHP Notice:  Undefined variable: _GEt in /home/xj6eunsk9mjs/public_html/newPassword.php on line 163
+[21-Nov-2019 06:30:34 UTC] PHP Warning:  Use of undefined constant BASE_URL - assumed 'BASE_URL' (this will throw an Error in a future version of PHP) in /home/xj6eunsk9mjs/public_html/newPassword.php on line 182
+[21-Nov-2019 06:30:34 UTC] PHP Warning:  Use of undefined constant BASE_URL - assumed 'BASE_URL' (this will throw an Error in a future version of PHP) in /home/xj6eunsk9mjs/public_html/newPassword.php on line 184
+[21-Nov-2019 06:30:34 UTC] PHP Warning:  Use of undefined constant BASE_URL - assumed 'BASE_URL' (this will throw an Error in a future version of PHP) in /home/xj6eunsk9mjs/public_html/newPassword.php on line 186
+[21-Nov-2019 06:30:34 UTC] PHP Warning:  Use of undefined constant BASE_URL - assumed 'BASE_URL' (this will throw an Error in a future version of PHP) in /home/xj6eunsk9mjs/public_html/newPassword.php on line 188
+[21-Nov-2019 06:30:34 UTC] PHP Warning:  Use of undefined constant BASE_URL - assumed 'BASE_URL' (this will throw an Error in a future version of PHP) in /home/xj6eunsk9mjs/public_html/newPassword.php on line 192
+[21-Nov-2019 06:30:34 UTC] PHP Warning:  Use of undefined constant BASE_URL - assumed 'BASE_URL' (this will throw an Error in a future version of PHP) in /home/xj6eunsk9mjs/public_html/newPassword.php on line 193
+[21-Nov-2019 06:30:36 UTC] PHP Warning:  Use of undefined constant BASE_URL - assumed 'BASE_URL' (this will throw an Error in a future version of PHP) in /home/xj6eunsk9mjs/public_html/newPassword.php on line 79
+[21-Nov-2019 06:30:36 UTC] PHP Warning:  Use of undefined constant BASE_URL - assumed 'BASE_URL' (this will throw an Error in a future version of PHP) in /home/xj6eunsk9mjs/public_html/newPassword.php on line 81
+[21-Nov-2019 06:30:36 UTC] PHP Warning:  Use of undefined constant BASE_URL - assumed 'BASE_URL' (this will throw an Error in a future version of PHP) in /home/xj6eunsk9mjs/public_html/newPassword.php on line 83
+[21-Nov-2019 06:30:36 UTC] PHP Warning:  Use of undefined constant BASE_URL - assumed 'BASE_URL' (this will throw an Error in a future version of PHP) in /home/xj6eunsk9mjs/public_html/newPassword.php on line 84
+[21-Nov-2019 06:30:36 UTC] PHP Notice:  Undefined variable: _GEt in /home/xj6eunsk9mjs/public_html/newPassword.php on line 163
+[21-Nov-2019 06:30:36 UTC] PHP Warning:  Use of undefined constant BASE_URL - assumed 'BASE_URL' (this will throw an Error in a future version of PHP) in /home/xj6eunsk9mjs/public_html/newPassword.php on line 182
+[21-Nov-2019 06:30:36 UTC] PHP Warning:  Use of undefined constant BASE_URL - assumed 'BASE_URL' (this will throw an Error in a future version of PHP) in /home/xj6eunsk9mjs/public_html/newPassword.php on line 184
+[21-Nov-2019 06:30:36 UTC] PHP Warning:  Use of undefined constant BASE_URL - assumed 'BASE_URL' (this will throw an Error in a future version of PHP) in /home/xj6eunsk9mjs/public_html/newPassword.php on line 186
+[21-Nov-2019 06:30:36 UTC] PHP Warning:  Use of undefined constant BASE_URL - assumed 'BASE_URL' (this will throw an Error in a future version of PHP) in /home/xj6eunsk9mjs/public_html/newPassword.php on line 188
+[21-Nov-2019 06:30:36 UTC] PHP Warning:  Use of undefined constant BASE_URL - assumed 'BASE_URL' (this will throw an Error in a future version of PHP) in /home/xj6eunsk9mjs/public_html/newPassword.php on line 192
+[21-Nov-2019 06:30:36 UTC] PHP Warning:  Use of undefined constant BASE_URL - assumed 'BASE_URL' (this will throw an Error in a future version of PHP) in /home/xj6eunsk9mjs/public_html/newPassword.php on line 193
+[21-Nov-2019 06:30:36 UTC] PHP Warning:  Use of undefined constant BASE_URL - assumed 'BASE_URL' (this will throw an Error in a future version of PHP) in /home/xj6eunsk9mjs/public_html/newPassword.php on line 79
+[21-Nov-2019 06:30:36 UTC] PHP Warning:  Use of undefined constant BASE_URL - assumed 'BASE_URL' (this will throw an Error in a future version of PHP) in /home/xj6eunsk9mjs/public_html/newPassword.php on line 81
+[21-Nov-2019 06:30:36 UTC] PHP Warning:  Use of undefined constant BASE_URL - assumed 'BASE_URL' (this will throw an Error in a future version of PHP) in /home/xj6eunsk9mjs/public_html/newPassword.php on line 83
+[21-Nov-2019 06:30:36 UTC] PHP Warning:  Use of undefined constant BASE_URL - assumed 'BASE_URL' (this will throw an Error in a future version of PHP) in /home/xj6eunsk9mjs/public_html/newPassword.php on line 84
+[21-Nov-2019 06:30:36 UTC] PHP Notice:  Undefined variable: _GEt in /home/xj6eunsk9mjs/public_html/newPassword.php on line 163
+[21-Nov-2019 06:30:36 UTC] PHP Warning:  Use of undefined constant BASE_URL - assumed 'BASE_URL' (this will throw an Error in a future version of PHP) in /home/xj6eunsk9mjs/public_html/newPassword.php on line 182
+[21-Nov-2019 06:30:36 UTC] PHP Warning:  Use of undefined constant BASE_URL - assumed 'BASE_URL' (this will throw an Error in a future version of PHP) in /home/xj6eunsk9mjs/public_html/newPassword.php on line 184
+[21-Nov-2019 06:30:36 UTC] PHP Warning:  Use of undefined constant BASE_URL - assumed 'BASE_URL' (this will throw an Error in a future version of PHP) in /home/xj6eunsk9mjs/public_html/newPassword.php on line 186
+[21-Nov-2019 06:30:36 UTC] PHP Warning:  Use of undefined constant BASE_URL - assumed 'BASE_URL' (this will throw an Error in a future version of PHP) in /home/xj6eunsk9mjs/public_html/newPassword.php on line 188
+[21-Nov-2019 06:30:36 UTC] PHP Warning:  Use of undefined constant BASE_URL - assumed 'BASE_URL' (this will throw an Error in a future version of PHP) in /home/xj6eunsk9mjs/public_html/newPassword.php on line 192
+[21-Nov-2019 06:30:36 UTC] PHP Warning:  Use of undefined constant BASE_URL - assumed 'BASE_URL' (this will throw an Error in a future version of PHP) in /home/xj6eunsk9mjs/public_html/newPassword.php on line 193
+[21-Nov-2019 06:30:36 UTC] PHP Warning:  Use of undefined constant BASE_URL - assumed 'BASE_URL' (this will throw an Error in a future version of PHP) in /home/xj6eunsk9mjs/public_html/newPassword.php on line 79
+[21-Nov-2019 06:30:36 UTC] PHP Warning:  Use of undefined constant BASE_URL - assumed 'BASE_URL' (this will throw an Error in a future version of PHP) in /home/xj6eunsk9mjs/public_html/newPassword.php on line 81
+[21-Nov-2019 06:30:36 UTC] PHP Warning:  Use of undefined constant BASE_URL - assumed 'BASE_URL' (this will throw an Error in a future version of PHP) in /home/xj6eunsk9mjs/public_html/newPassword.php on line 83
+[21-Nov-2019 06:30:36 UTC] PHP Warning:  Use of undefined constant BASE_URL - assumed 'BASE_URL' (this will throw an Error in a future version of PHP) in /home/xj6eunsk9mjs/public_html/newPassword.php on line 84
+[21-Nov-2019 06:30:36 UTC] PHP Notice:  Undefined variable: _GEt in /home/xj6eunsk9mjs/public_html/newPassword.php on line 163
+[21-Nov-2019 06:30:36 UTC] PHP Warning:  Use of undefined constant BASE_URL - assumed 'BASE_URL' (this will throw an Error in a future version of PHP) in /home/xj6eunsk9mjs/public_html/newPassword.php on line 182
+[21-Nov-2019 06:30:36 UTC] PHP Warning:  Use of undefined constant BASE_URL - assumed 'BASE_URL' (this will throw an Error in a future version of PHP) in /home/xj6eunsk9mjs/public_html/newPassword.php on line 184
+[21-Nov-2019 06:30:36 UTC] PHP Warning:  Use of undefined constant BASE_URL - assumed 'BASE_URL' (this will throw an Error in a future version of PHP) in /home/xj6eunsk9mjs/public_html/newPassword.php on line 186
+[21-Nov-2019 06:30:36 UTC] PHP Warning:  Use of undefined constant BASE_URL - assumed 'BASE_URL' (this will throw an Error in a future version of PHP) in /home/xj6eunsk9mjs/public_html/newPassword.php on line 188
+[21-Nov-2019 06:30:36 UTC] PHP Warning:  Use of undefined constant BASE_URL - assumed 'BASE_URL' (this will throw an Error in a future version of PHP) in /home/xj6eunsk9mjs/public_html/newPassword.php on line 192
+[21-Nov-2019 06:30:36 UTC] PHP Warning:  Use of undefined constant BASE_URL - assumed 'BASE_URL' (this will throw an Error in a future version of PHP) in /home/xj6eunsk9mjs/public_html/newPassword.php on line 193
+[21-Nov-2019 06:30:36 UTC] PHP Warning:  Use of undefined constant BASE_URL - assumed 'BASE_URL' (this will throw an Error in a future version of PHP) in /home/xj6eunsk9mjs/public_html/newPassword.php on line 79
+[21-Nov-2019 06:30:36 UTC] PHP Warning:  Use of undefined constant BASE_URL - assumed 'BASE_URL' (this will throw an Error in a future version of PHP) in /home/xj6eunsk9mjs/public_html/newPassword.php on line 81
+[21-Nov-2019 06:30:36 UTC] PHP Warning:  Use of undefined constant BASE_URL - assumed 'BASE_URL' (this will throw an Error in a future version of PHP) in /home/xj6eunsk9mjs/public_html/newPassword.php on line 83
+[21-Nov-2019 06:30:36 UTC] PHP Warning:  Use of undefined constant BASE_URL - assumed 'BASE_URL' (this will throw an Error in a future version of PHP) in /home/xj6eunsk9mjs/public_html/newPassword.php on line 84
+[21-Nov-2019 06:30:36 UTC] PHP Notice:  Undefined variable: _GEt in /home/xj6eunsk9mjs/public_html/newPassword.php on line 163
+[21-Nov-2019 06:30:36 UTC] PHP Warning:  Use of undefined constant BASE_URL - assumed 'BASE_URL' (this will throw an Error in a future version of PHP) in /home/xj6eunsk9mjs/public_html/newPassword.php on line 182
+[21-Nov-2019 06:30:36 UTC] PHP Warning:  Use of undefined constant BASE_URL - assumed 'BASE_URL' (this will throw an Error in a future version of PHP) in /home/xj6eunsk9mjs/public_html/newPassword.php on line 184
+[21-Nov-2019 06:30:36 UTC] PHP Warning:  Use of undefined constant BASE_URL - assumed 'BASE_URL' (this will throw an Error in a future version of PHP) in /home/xj6eunsk9mjs/public_html/newPassword.php on line 186
+[21-Nov-2019 06:30:36 UTC] PHP Warning:  Use of undefined constant BASE_URL - assumed 'BASE_URL' (this will throw an Error in a future version of PHP) in /home/xj6eunsk9mjs/public_html/newPassword.php on line 188
+[21-Nov-2019 06:30:36 UTC] PHP Warning:  Use of undefined constant BASE_URL - assumed 'BASE_URL' (this will throw an Error in a future version of PHP) in /home/xj6eunsk9mjs/public_html/newPassword.php on line 192
+[21-Nov-2019 06:30:36 UTC] PHP Warning:  Use of undefined constant BASE_URL - assumed 'BASE_URL' (this will throw an Error in a future version of PHP) in /home/xj6eunsk9mjs/public_html/newPassword.php on line 193
+[21-Nov-2019 06:30:36 UTC] PHP Warning:  Use of undefined constant BASE_URL - assumed 'BASE_URL' (this will throw an Error in a future version of PHP) in /home/xj6eunsk9mjs/public_html/newPassword.php on line 79
+[21-Nov-2019 06:30:36 UTC] PHP Warning:  Use of undefined constant BASE_URL - assumed 'BASE_URL' (this will throw an Error in a future version of PHP) in /home/xj6eunsk9mjs/public_html/newPassword.php on line 81
+[21-Nov-2019 06:30:36 UTC] PHP Warning:  Use of undefined constant BASE_URL - assumed 'BASE_URL' (this will throw an Error in a future version of PHP) in /home/xj6eunsk9mjs/public_html/newPassword.php on line 83
+[21-Nov-2019 06:30:36 UTC] PHP Warning:  Use of undefined constant BASE_URL - assumed 'BASE_URL' (this will throw an Error in a future version of PHP) in /home/xj6eunsk9mjs/public_html/newPassword.php on line 84
+[21-Nov-2019 06:30:36 UTC] PHP Notice:  Undefined variable: _GEt in /home/xj6eunsk9mjs/public_html/newPassword.php on line 163
+[21-Nov-2019 06:30:36 UTC] PHP Warning:  Use of undefined constant BASE_URL - assumed 'BASE_URL' (this will throw an Error in a future version of PHP) in /home/xj6eunsk9mjs/public_html/newPassword.php on line 182
+[21-Nov-2019 06:30:36 UTC] PHP Warning:  Use of undefined constant BASE_URL - assumed 'BASE_URL' (this will throw an Error in a future version of PHP) in /home/xj6eunsk9mjs/public_html/newPassword.php on line 184
+[21-Nov-2019 06:30:36 UTC] PHP Warning:  Use of undefined constant BASE_URL - assumed 'BASE_URL' (this will throw an Error in a future version of PHP) in /home/xj6eunsk9mjs/public_html/newPassword.php on line 186
+[21-Nov-2019 06:30:36 UTC] PHP Warning:  Use of undefined constant BASE_URL - assumed 'BASE_URL' (this will throw an Error in a future version of PHP) in /home/xj6eunsk9mjs/public_html/newPassword.php on line 188
+[21-Nov-2019 06:30:36 UTC] PHP Warning:  Use of undefined constant BASE_URL - assumed 'BASE_URL' (this will throw an Error in a future version of PHP) in /home/xj6eunsk9mjs/public_html/newPassword.php on line 192
+[21-Nov-2019 06:30:36 UTC] PHP Warning:  Use of undefined constant BASE_URL - assumed 'BASE_URL' (this will throw an Error in a future version of PHP) in /home/xj6eunsk9mjs/public_html/newPassword.php on line 193
+[21-Nov-2019 06:30:36 UTC] PHP Warning:  Use of undefined constant BASE_URL - assumed 'BASE_URL' (this will throw an Error in a future version of PHP) in /home/xj6eunsk9mjs/public_html/newPassword.php on line 79
+[21-Nov-2019 06:30:36 UTC] PHP Warning:  Use of undefined constant BASE_URL - assumed 'BASE_URL' (this will throw an Error in a future version of PHP) in /home/xj6eunsk9mjs/public_html/newPassword.php on line 81
+[21-Nov-2019 06:30:36 UTC] PHP Warning:  Use of undefined constant BASE_URL - assumed 'BASE_URL' (this will throw an Error in a future version of PHP) in /home/xj6eunsk9mjs/public_html/newPassword.php on line 83
+[21-Nov-2019 06:30:36 UTC] PHP Warning:  Use of undefined constant BASE_URL - assumed 'BASE_URL' (this will throw an Error in a future version of PHP) in /home/xj6eunsk9mjs/public_html/newPassword.php on line 84
+[21-Nov-2019 06:30:36 UTC] PHP Notice:  Undefined variable: _GEt in /home/xj6eunsk9mjs/public_html/newPassword.php on line 163
+[21-Nov-2019 06:30:36 UTC] PHP Warning:  Use of undefined constant BASE_URL - assumed 'BASE_URL' (this will throw an Error in a future version of PHP) in /home/xj6eunsk9mjs/public_html/newPassword.php on line 182
+[21-Nov-2019 06:30:36 UTC] PHP Warning:  Use of undefined constant BASE_URL - assumed 'BASE_URL' (this will throw an Error in a future version of PHP) in /home/xj6eunsk9mjs/public_html/newPassword.php on line 184
+[21-Nov-2019 06:30:36 UTC] PHP Warning:  Use of undefined constant BASE_URL - assumed 'BASE_URL' (this will throw an Error in a future version of PHP) in /home/xj6eunsk9mjs/public_html/newPassword.php on line 186
+[21-Nov-2019 06:30:36 UTC] PHP Warning:  Use of undefined constant BASE_URL - assumed 'BASE_URL' (this will throw an Error in a future version of PHP) in /home/xj6eunsk9mjs/public_html/newPassword.php on line 188
+[21-Nov-2019 06:30:36 UTC] PHP Warning:  Use of undefined constant BASE_URL - assumed 'BASE_URL' (this will throw an Error in a future version of PHP) in /home/xj6eunsk9mjs/public_html/newPassword.php on line 192
+[21-Nov-2019 06:30:36 UTC] PHP Warning:  Use of undefined constant BASE_URL - assumed 'BASE_URL' (this will throw an Error in a future version of PHP) in /home/xj6eunsk9mjs/public_html/newPassword.php on line 193
+[21-Nov-2019 06:30:37 UTC] PHP Warning:  Use of undefined constant BASE_URL - assumed 'BASE_URL' (this will throw an Error in a future version of PHP) in /home/xj6eunsk9mjs/public_html/newPassword.php on line 79
+[21-Nov-2019 06:30:37 UTC] PHP Warning:  Use of undefined constant BASE_URL - assumed 'BASE_URL' (this will throw an Error in a future version of PHP) in /home/xj6eunsk9mjs/public_html/newPassword.php on line 81
+[21-Nov-2019 06:30:37 UTC] PHP Warning:  Use of undefined constant BASE_URL - assumed 'BASE_URL' (this will throw an Error in a future version of PHP) in /home/xj6eunsk9mjs/public_html/newPassword.php on line 83
+[21-Nov-2019 06:30:37 UTC] PHP Warning:  Use of undefined constant BASE_URL - assumed 'BASE_URL' (this will throw an Error in a future version of PHP) in /home/xj6eunsk9mjs/public_html/newPassword.php on line 84
+[21-Nov-2019 06:30:37 UTC] PHP Notice:  Undefined variable: _GEt in /home/xj6eunsk9mjs/public_html/newPassword.php on line 163
+[21-Nov-2019 06:30:37 UTC] PHP Warning:  Use of undefined constant BASE_URL - assumed 'BASE_URL' (this will throw an Error in a future version of PHP) in /home/xj6eunsk9mjs/public_html/newPassword.php on line 182
+[21-Nov-2019 06:30:37 UTC] PHP Warning:  Use of undefined constant BASE_URL - assumed 'BASE_URL' (this will throw an Error in a future version of PHP) in /home/xj6eunsk9mjs/public_html/newPassword.php on line 184
+[21-Nov-2019 06:30:37 UTC] PHP Warning:  Use of undefined constant BASE_URL - assumed 'BASE_URL' (this will throw an Error in a future version of PHP) in /home/xj6eunsk9mjs/public_html/newPassword.php on line 186
+[21-Nov-2019 06:30:37 UTC] PHP Warning:  Use of undefined constant BASE_URL - assumed 'BASE_URL' (this will throw an Error in a future version of PHP) in /home/xj6eunsk9mjs/public_html/newPassword.php on line 188
+[21-Nov-2019 06:30:37 UTC] PHP Warning:  Use of undefined constant BASE_URL - assumed 'BASE_URL' (this will throw an Error in a future version of PHP) in /home/xj6eunsk9mjs/public_html/newPassword.php on line 192
+[21-Nov-2019 06:30:37 UTC] PHP Warning:  Use of undefined constant BASE_URL - assumed 'BASE_URL' (this will throw an Error in a future version of PHP) in /home/xj6eunsk9mjs/public_html/newPassword.php on line 193
+[21-Nov-2019 06:30:37 UTC] PHP Warning:  Use of undefined constant BASE_URL - assumed 'BASE_URL' (this will throw an Error in a future version of PHP) in /home/xj6eunsk9mjs/public_html/newPassword.php on line 79
+[21-Nov-2019 06:30:37 UTC] PHP Warning:  Use of undefined constant BASE_URL - assumed 'BASE_URL' (this will throw an Error in a future version of PHP) in /home/xj6eunsk9mjs/public_html/newPassword.php on line 81
+[21-Nov-2019 06:30:37 UTC] PHP Warning:  Use of undefined constant BASE_URL - assumed 'BASE_URL' (this will throw an Error in a future version of PHP) in /home/xj6eunsk9mjs/public_html/newPassword.php on line 83
+[21-Nov-2019 06:30:37 UTC] PHP Warning:  Use of undefined constant BASE_URL - assumed 'BASE_URL' (this will throw an Error in a future version of PHP) in /home/xj6eunsk9mjs/public_html/newPassword.php on line 84
+[21-Nov-2019 06:30:37 UTC] PHP Notice:  Undefined variable: _GEt in /home/xj6eunsk9mjs/public_html/newPassword.php on line 163
+[21-Nov-2019 06:30:37 UTC] PHP Warning:  Use of undefined constant BASE_URL - assumed 'BASE_URL' (this will throw an Error in a future version of PHP) in /home/xj6eunsk9mjs/public_html/newPassword.php on line 182
+[21-Nov-2019 06:30:37 UTC] PHP Warning:  Use of undefined constant BASE_URL - assumed 'BASE_URL' (this will throw an Error in a future version of PHP) in /home/xj6eunsk9mjs/public_html/newPassword.php on line 184
+[21-Nov-2019 06:30:37 UTC] PHP Warning:  Use of undefined constant BASE_URL - assumed 'BASE_URL' (this will throw an Error in a future version of PHP) in /home/xj6eunsk9mjs/public_html/newPassword.php on line 186
+[21-Nov-2019 06:30:37 UTC] PHP Warning:  Use of undefined constant BASE_URL - assumed 'BASE_URL' (this will throw an Error in a future version of PHP) in /home/xj6eunsk9mjs/public_html/newPassword.php on line 188
+[21-Nov-2019 06:30:37 UTC] PHP Warning:  Use of undefined constant BASE_URL - assumed 'BASE_URL' (this will throw an Error in a future version of PHP) in /home/xj6eunsk9mjs/public_html/newPassword.php on line 192
+[21-Nov-2019 06:30:37 UTC] PHP Warning:  Use of undefined constant BASE_URL - assumed 'BASE_URL' (this will throw an Error in a future version of PHP) in /home/xj6eunsk9mjs/public_html/newPassword.php on line 193
+[21-Nov-2019 06:30:37 UTC] PHP Warning:  Use of undefined constant BASE_URL - assumed 'BASE_URL' (this will throw an Error in a future version of PHP) in /home/xj6eunsk9mjs/public_html/newPassword.php on line 79
+[21-Nov-2019 06:30:37 UTC] PHP Warning:  Use of undefined constant BASE_URL - assumed 'BASE_URL' (this will throw an Error in a future version of PHP) in /home/xj6eunsk9mjs/public_html/newPassword.php on line 81
+[21-Nov-2019 06:30:37 UTC] PHP Warning:  Use of undefined constant BASE_URL - assumed 'BASE_URL' (this will throw an Error in a future version of PHP) in /home/xj6eunsk9mjs/public_html/newPassword.php on line 83
+[21-Nov-2019 06:30:37 UTC] PHP Warning:  Use of undefined constant BASE_URL - assumed 'BASE_URL' (this will throw an Error in a future version of PHP) in /home/xj6eunsk9mjs/public_html/newPassword.php on line 84
+[21-Nov-2019 06:30:37 UTC] PHP Notice:  Undefined variable: _GEt in /home/xj6eunsk9mjs/public_html/newPassword.php on line 163
+[21-Nov-2019 06:30:37 UTC] PHP Warning:  Use of undefined constant BASE_URL - assumed 'BASE_URL' (this will throw an Error in a future version of PHP) in /home/xj6eunsk9mjs/public_html/newPassword.php on line 182
+[21-Nov-2019 06:30:37 UTC] PHP Warning:  Use of undefined constant BASE_URL - assumed 'BASE_URL' (this will throw an Error in a future version of PHP) in /home/xj6eunsk9mjs/public_html/newPassword.php on line 184
+[21-Nov-2019 06:30:37 UTC] PHP Warning:  Use of undefined constant BASE_URL - assumed 'BASE_URL' (this will throw an Error in a future version of PHP) in /home/xj6eunsk9mjs/public_html/newPassword.php on line 79
+[21-Nov-2019 06:30:37 UTC] PHP Warning:  Use of undefined constant BASE_URL - assumed 'BASE_URL' (this will throw an Error in a future version of PHP) in /home/xj6eunsk9mjs/public_html/newPassword.php on line 186
+[21-Nov-2019 06:30:37 UTC] PHP Warning:  Use of undefined constant BASE_URL - assumed 'BASE_URL' (this will throw an Error in a future version of PHP) in /home/xj6eunsk9mjs/public_html/newPassword.php on line 188
+[21-Nov-2019 06:30:37 UTC] PHP Warning:  Use of undefined constant BASE_URL - assumed 'BASE_URL' (this will throw an Error in a future version of PHP) in /home/xj6eunsk9mjs/public_html/newPassword.php on line 81
+[21-Nov-2019 06:30:37 UTC] PHP Warning:  Use of undefined constant BASE_URL - assumed 'BASE_URL' (this will throw an Error in a future version of PHP) in /home/xj6eunsk9mjs/public_html/newPassword.php on line 83
+[21-Nov-2019 06:30:37 UTC] PHP Warning:  Use of undefined constant BASE_URL - assumed 'BASE_URL' (this will throw an Error in a future version of PHP) in /home/xj6eunsk9mjs/public_html/newPassword.php on line 84
+[21-Nov-2019 06:30:37 UTC] PHP Notice:  Undefined variable: _GEt in /home/xj6eunsk9mjs/public_html/newPassword.php on line 163
+[21-Nov-2019 06:30:37 UTC] PHP Warning:  Use of undefined constant BASE_URL - assumed 'BASE_URL' (this will throw an Error in a future version of PHP) in /home/xj6eunsk9mjs/public_html/newPassword.php on line 182
+[21-Nov-2019 06:30:37 UTC] PHP Warning:  Use of undefined constant BASE_URL - assumed 'BASE_URL' (this will throw an Error in a future version of PHP) in /home/xj6eunsk9mjs/public_html/newPassword.php on line 184
+[21-Nov-2019 06:30:37 UTC] PHP Warning:  Use of undefined constant BASE_URL - assumed 'BASE_URL' (this will throw an Error in a future version of PHP) in /home/xj6eunsk9mjs/public_html/newPassword.php on line 186
+[21-Nov-2019 06:30:37 UTC] PHP Warning:  Use of undefined constant BASE_URL - assumed 'BASE_URL' (this will throw an Error in a future version of PHP) in /home/xj6eunsk9mjs/public_html/newPassword.php on line 188
+[21-Nov-2019 06:30:37 UTC] PHP Warning:  Use of undefined constant BASE_URL - assumed 'BASE_URL' (this will throw an Error in a future version of PHP) in /home/xj6eunsk9mjs/public_html/newPassword.php on line 192
+[21-Nov-2019 06:30:37 UTC] PHP Warning:  Use of undefined constant BASE_URL - assumed 'BASE_URL' (this will throw an Error in a future version of PHP) in /home/xj6eunsk9mjs/public_html/newPassword.php on line 192
+[21-Nov-2019 06:30:37 UTC] PHP Warning:  Use of undefined constant BASE_URL - assumed 'BASE_URL' (this will throw an Error in a future version of PHP) in /home/xj6eunsk9mjs/public_html/newPassword.php on line 193
+[21-Nov-2019 06:30:37 UTC] PHP Warning:  Use of undefined constant BASE_URL - assumed 'BASE_URL' (this will throw an Error in a future version of PHP) in /home/xj6eunsk9mjs/public_html/newPassword.php on line 193
+[21-Nov-2019 06:30:53 UTC] PHP Warning:  Use of undefined constant BASE_URL - assumed 'BASE_URL' (this will throw an Error in a future version of PHP) in /home/xj6eunsk9mjs/public_html/newPassword.php on line 79
+[21-Nov-2019 06:30:53 UTC] PHP Warning:  Use of undefined constant BASE_URL - assumed 'BASE_URL' (this will throw an Error in a future version of PHP) in /home/xj6eunsk9mjs/public_html/newPassword.php on line 81
+[21-Nov-2019 06:30:53 UTC] PHP Warning:  Use of undefined constant BASE_URL - assumed 'BASE_URL' (this will throw an Error in a future version of PHP) in /home/xj6eunsk9mjs/public_html/newPassword.php on line 83
+[21-Nov-2019 06:30:53 UTC] PHP Warning:  Use of undefined constant BASE_URL - assumed 'BASE_URL' (this will throw an Error in a future version of PHP) in /home/xj6eunsk9mjs/public_html/newPassword.php on line 84
+[21-Nov-2019 06:30:53 UTC] PHP Notice:  Undefined variable: _GEt in /home/xj6eunsk9mjs/public_html/newPassword.php on line 163
+[21-Nov-2019 06:30:53 UTC] PHP Warning:  Use of undefined constant BASE_URL - assumed 'BASE_URL' (this will throw an Error in a future version of PHP) in /home/xj6eunsk9mjs/public_html/newPassword.php on line 182
+[21-Nov-2019 06:30:53 UTC] PHP Warning:  Use of undefined constant BASE_URL - assumed 'BASE_URL' (this will throw an Error in a future version of PHP) in /home/xj6eunsk9mjs/public_html/newPassword.php on line 184
+[21-Nov-2019 06:30:53 UTC] PHP Warning:  Use of undefined constant BASE_URL - assumed 'BASE_URL' (this will throw an Error in a future version of PHP) in /home/xj6eunsk9mjs/public_html/newPassword.php on line 186
+[21-Nov-2019 06:30:53 UTC] PHP Warning:  Use of undefined constant BASE_URL - assumed 'BASE_URL' (this will throw an Error in a future version of PHP) in /home/xj6eunsk9mjs/public_html/newPassword.php on line 188
+[21-Nov-2019 06:30:53 UTC] PHP Warning:  Use of undefined constant BASE_URL - assumed 'BASE_URL' (this will throw an Error in a future version of PHP) in /home/xj6eunsk9mjs/public_html/newPassword.php on line 192
+[21-Nov-2019 06:30:53 UTC] PHP Warning:  Use of undefined constant BASE_URL - assumed 'BASE_URL' (this will throw an Error in a future version of PHP) in /home/xj6eunsk9mjs/public_html/newPassword.php on line 193
+[21-Nov-2019 06:33:04 UTC] PHP Notice:  Undefined index: code in /home/xj6eunsk9mjs/public_html/newPassword.php on line 150
+[21-Nov-2019 06:33:05 UTC] PHP Notice:  Undefined index: code in /home/xj6eunsk9mjs/public_html/newPassword.php on line 150
+[21-Nov-2019 06:33:05 UTC] PHP Notice:  Undefined index: code in /home/xj6eunsk9mjs/public_html/newPassword.php on line 150
+[21-Nov-2019 06:33:05 UTC] PHP Notice:  Undefined index: code in /home/xj6eunsk9mjs/public_html/newPassword.php on line 150
+[21-Nov-2019 06:33:05 UTC] PHP Notice:  Undefined index: code in /home/xj6eunsk9mjs/public_html/newPassword.php on line 150
+[21-Nov-2019 06:33:06 UTC] PHP Notice:  Undefined index: code in /home/xj6eunsk9mjs/public_html/newPassword.php on line 150
+[21-Nov-2019 06:33:07 UTC] PHP Notice:  Undefined index: code in /home/xj6eunsk9mjs/public_html/newPassword.php on line 150
+[21-Nov-2019 06:33:07 UTC] PHP Notice:  Undefined index: code in /home/xj6eunsk9mjs/public_html/newPassword.php on line 150
+[21-Nov-2019 06:34:31 UTC] PHP Warning:  Use of undefined constant BASE_URL - assumed 'BASE_URL' (this will throw an Error in a future version of PHP) in /home/xj6eunsk9mjs/public_html/newPassword.php on line 11
+[21-Nov-2019 06:34:31 UTC] PHP Warning:  Use of undefined constant BASE_URL - assumed 'BASE_URL' (this will throw an Error in a future version of PHP) in /home/xj6eunsk9mjs/public_html/newPassword.php on line 13
+[21-Nov-2019 06:34:31 UTC] PHP Warning:  Use of undefined constant BASE_URL - assumed 'BASE_URL' (this will throw an Error in a future version of PHP) in /home/xj6eunsk9mjs/public_html/newPassword.php on line 15
+[21-Nov-2019 06:34:32 UTC] PHP Warning:  Use of undefined constant BASE_URL - assumed 'BASE_URL' (this will throw an Error in a future version of PHP) in /home/xj6eunsk9mjs/public_html/newPassword.php on line 16
+[21-Nov-2019 06:34:32 UTC] PHP Warning:  Use of undefined constant BASE_URL - assumed 'BASE_URL' (this will throw an Error in a future version of PHP) in /home/xj6eunsk9mjs/public_html/newPassword.php on line 166
+[21-Nov-2019 06:34:32 UTC] PHP Warning:  Use of undefined constant BASE_URL - assumed 'BASE_URL' (this will throw an Error in a future version of PHP) in /home/xj6eunsk9mjs/public_html/newPassword.php on line 168
+[21-Nov-2019 06:34:32 UTC] PHP Warning:  Use of undefined constant BASE_URL - assumed 'BASE_URL' (this will throw an Error in a future version of PHP) in /home/xj6eunsk9mjs/public_html/newPassword.php on line 170
+[21-Nov-2019 06:34:32 UTC] PHP Warning:  Use of undefined constant BASE_URL - assumed 'BASE_URL' (this will throw an Error in a future version of PHP) in /home/xj6eunsk9mjs/public_html/newPassword.php on line 174
+[21-Nov-2019 06:34:32 UTC] PHP Warning:  Use of undefined constant BASE_URL - assumed 'BASE_URL' (this will throw an Error in a future version of PHP) in /home/xj6eunsk9mjs/public_html/newPassword.php on line 175
+[21-Nov-2019 06:34:32 UTC] PHP Warning:  Use of undefined constant BASE_URL - assumed 'BASE_URL' (this will throw an Error in a future version of PHP) in /home/xj6eunsk9mjs/public_html/newPassword.php on line 176
+[21-Nov-2019 06:34:35 UTC] PHP Warning:  Use of undefined constant BASE_URL - assumed 'BASE_URL' (this will throw an Error in a future version of PHP) in /home/xj6eunsk9mjs/public_html/newPassword.php on line 11
+[21-Nov-2019 06:34:35 UTC] PHP Warning:  Use of undefined constant BASE_URL - assumed 'BASE_URL' (this will throw an Error in a future version of PHP) in /home/xj6eunsk9mjs/public_html/newPassword.php on line 13
+[21-Nov-2019 06:34:35 UTC] PHP Warning:  Use of undefined constant BASE_URL - assumed 'BASE_URL' (this will throw an Error in a future version of PHP) in /home/xj6eunsk9mjs/public_html/newPassword.php on line 15
+[21-Nov-2019 06:34:35 UTC] PHP Warning:  Use of undefined constant BASE_URL - assumed 'BASE_URL' (this will throw an Error in a future version of PHP) in /home/xj6eunsk9mjs/public_html/newPassword.php on line 16
+[21-Nov-2019 06:34:35 UTC] PHP Notice:  Undefined index: code in /home/xj6eunsk9mjs/public_html/newPassword.php on line 148
+[21-Nov-2019 06:34:35 UTC] PHP Warning:  Use of undefined constant BASE_URL - assumed 'BASE_URL' (this will throw an Error in a future version of PHP) in /home/xj6eunsk9mjs/public_html/newPassword.php on line 166
+[21-Nov-2019 06:34:35 UTC] PHP Warning:  Use of undefined constant BASE_URL - assumed 'BASE_URL' (this will throw an Error in a future version of PHP) in /home/xj6eunsk9mjs/public_html/newPassword.php on line 168
+[21-Nov-2019 06:34:35 UTC] PHP Warning:  Use of undefined constant BASE_URL - assumed 'BASE_URL' (this will throw an Error in a future version of PHP) in /home/xj6eunsk9mjs/public_html/newPassword.php on line 170
+[21-Nov-2019 06:34:35 UTC] PHP Warning:  Use of undefined constant BASE_URL - assumed 'BASE_URL' (this will throw an Error in a future version of PHP) in /home/xj6eunsk9mjs/public_html/newPassword.php on line 174
+[21-Nov-2019 06:34:35 UTC] PHP Warning:  Use of undefined constant BASE_URL - assumed 'BASE_URL' (this will throw an Error in a future version of PHP) in /home/xj6eunsk9mjs/public_html/newPassword.php on line 175
+[21-Nov-2019 06:34:35 UTC] PHP Warning:  Use of undefined constant BASE_URL - assumed 'BASE_URL' (this will throw an Error in a future version of PHP) in /home/xj6eunsk9mjs/public_html/newPassword.php on line 176
+[21-Nov-2019 06:34:37 UTC] PHP Warning:  Use of undefined constant BASE_URL - assumed 'BASE_URL' (this will throw an Error in a future version of PHP) in /home/xj6eunsk9mjs/public_html/newPassword.php on line 11
+[21-Nov-2019 06:34:37 UTC] PHP Warning:  Use of undefined constant BASE_URL - assumed 'BASE_URL' (this will throw an Error in a future version of PHP) in /home/xj6eunsk9mjs/public_html/newPassword.php on line 13
+[21-Nov-2019 06:34:37 UTC] PHP Warning:  Use of undefined constant BASE_URL - assumed 'BASE_URL' (this will throw an Error in a future version of PHP) in /home/xj6eunsk9mjs/public_html/newPassword.php on line 15
+[21-Nov-2019 06:34:37 UTC] PHP Warning:  Use of undefined constant BASE_URL - assumed 'BASE_URL' (this will throw an Error in a future version of PHP) in /home/xj6eunsk9mjs/public_html/newPassword.php on line 16
+[21-Nov-2019 06:34:37 UTC] PHP Notice:  Undefined index: code in /home/xj6eunsk9mjs/public_html/newPassword.php on line 148
+[21-Nov-2019 06:34:37 UTC] PHP Warning:  Use of undefined constant BASE_URL - assumed 'BASE_URL' (this will throw an Error in a future version of PHP) in /home/xj6eunsk9mjs/public_html/newPassword.php on line 166
+[21-Nov-2019 06:34:37 UTC] PHP Warning:  Use of undefined constant BASE_URL - assumed 'BASE_URL' (this will throw an Error in a future version of PHP) in /home/xj6eunsk9mjs/public_html/newPassword.php on line 11
+[21-Nov-2019 06:34:37 UTC] PHP Warning:  Use of undefined constant BASE_URL - assumed 'BASE_URL' (this will throw an Error in a future version of PHP) in /home/xj6eunsk9mjs/public_html/newPassword.php on line 13
+[21-Nov-2019 06:34:37 UTC] PHP Warning:  Use of undefined constant BASE_URL - assumed 'BASE_URL' (this will throw an Error in a future version of PHP) in /home/xj6eunsk9mjs/public_html/newPassword.php on line 15
+[21-Nov-2019 06:34:37 UTC] PHP Warning:  Use of undefined constant BASE_URL - assumed 'BASE_URL' (this will throw an Error in a future version of PHP) in /home/xj6eunsk9mjs/public_html/newPassword.php on line 16
+[21-Nov-2019 06:34:37 UTC] PHP Notice:  Undefined index: code in /home/xj6eunsk9mjs/public_html/newPassword.php on line 148
+[21-Nov-2019 06:34:37 UTC] PHP Warning:  Use of undefined constant BASE_URL - assumed 'BASE_URL' (this will throw an Error in a future version of PHP) in /home/xj6eunsk9mjs/public_html/newPassword.php on line 166
+[21-Nov-2019 06:34:37 UTC] PHP Warning:  Use of undefined constant BASE_URL - assumed 'BASE_URL' (this will throw an Error in a future version of PHP) in /home/xj6eunsk9mjs/public_html/newPassword.php on line 168
+[21-Nov-2019 06:34:37 UTC] PHP Warning:  Use of undefined constant BASE_URL - assumed 'BASE_URL' (this will throw an Error in a future version of PHP) in /home/xj6eunsk9mjs/public_html/newPassword.php on line 170
+[21-Nov-2019 06:34:37 UTC] PHP Warning:  Use of undefined constant BASE_URL - assumed 'BASE_URL' (this will throw an Error in a future version of PHP) in /home/xj6eunsk9mjs/public_html/newPassword.php on line 174
+[21-Nov-2019 06:34:37 UTC] PHP Warning:  Use of undefined constant BASE_URL - assumed 'BASE_URL' (this will throw an Error in a future version of PHP) in /home/xj6eunsk9mjs/public_html/newPassword.php on line 175
+[21-Nov-2019 06:34:37 UTC] PHP Warning:  Use of undefined constant BASE_URL - assumed 'BASE_URL' (this will throw an Error in a future version of PHP) in /home/xj6eunsk9mjs/public_html/newPassword.php on line 176
+[21-Nov-2019 06:34:37 UTC] PHP Warning:  Use of undefined constant BASE_URL - assumed 'BASE_URL' (this will throw an Error in a future version of PHP) in /home/xj6eunsk9mjs/public_html/newPassword.php on line 168
+[21-Nov-2019 06:34:37 UTC] PHP Warning:  Use of undefined constant BASE_URL - assumed 'BASE_URL' (this will throw an Error in a future version of PHP) in /home/xj6eunsk9mjs/public_html/newPassword.php on line 170
+[21-Nov-2019 06:34:37 UTC] PHP Warning:  Use of undefined constant BASE_URL - assumed 'BASE_URL' (this will throw an Error in a future version of PHP) in /home/xj6eunsk9mjs/public_html/newPassword.php on line 174
+[21-Nov-2019 06:34:37 UTC] PHP Warning:  Use of undefined constant BASE_URL - assumed 'BASE_URL' (this will throw an Error in a future version of PHP) in /home/xj6eunsk9mjs/public_html/newPassword.php on line 175
+[21-Nov-2019 06:34:37 UTC] PHP Warning:  Use of undefined constant BASE_URL - assumed 'BASE_URL' (this will throw an Error in a future version of PHP) in /home/xj6eunsk9mjs/public_html/newPassword.php on line 176
+[21-Nov-2019 06:34:37 UTC] PHP Warning:  Use of undefined constant BASE_URL - assumed 'BASE_URL' (this will throw an Error in a future version of PHP) in /home/xj6eunsk9mjs/public_html/newPassword.php on line 11
+[21-Nov-2019 06:34:37 UTC] PHP Warning:  Use of undefined constant BASE_URL - assumed 'BASE_URL' (this will throw an Error in a future version of PHP) in /home/xj6eunsk9mjs/public_html/newPassword.php on line 13
+[21-Nov-2019 06:34:37 UTC] PHP Warning:  Use of undefined constant BASE_URL - assumed 'BASE_URL' (this will throw an Error in a future version of PHP) in /home/xj6eunsk9mjs/public_html/newPassword.php on line 15
+[21-Nov-2019 06:34:37 UTC] PHP Warning:  Use of undefined constant BASE_URL - assumed 'BASE_URL' (this will throw an Error in a future version of PHP) in /home/xj6eunsk9mjs/public_html/newPassword.php on line 16
+[21-Nov-2019 06:34:37 UTC] PHP Notice:  Undefined index: code in /home/xj6eunsk9mjs/public_html/newPassword.php on line 148
+[21-Nov-2019 06:34:37 UTC] PHP Warning:  Use of undefined constant BASE_URL - assumed 'BASE_URL' (this will throw an Error in a future version of PHP) in /home/xj6eunsk9mjs/public_html/newPassword.php on line 166
+[21-Nov-2019 06:34:37 UTC] PHP Warning:  Use of undefined constant BASE_URL - assumed 'BASE_URL' (this will throw an Error in a future version of PHP) in /home/xj6eunsk9mjs/public_html/newPassword.php on line 168
+[21-Nov-2019 06:34:37 UTC] PHP Warning:  Use of undefined constant BASE_URL - assumed 'BASE_URL' (this will throw an Error in a future version of PHP) in /home/xj6eunsk9mjs/public_html/newPassword.php on line 170
+[21-Nov-2019 06:34:37 UTC] PHP Warning:  Use of undefined constant BASE_URL - assumed 'BASE_URL' (this will throw an Error in a future version of PHP) in /home/xj6eunsk9mjs/public_html/newPassword.php on line 174
+[21-Nov-2019 06:34:37 UTC] PHP Warning:  Use of undefined constant BASE_URL - assumed 'BASE_URL' (this will throw an Error in a future version of PHP) in /home/xj6eunsk9mjs/public_html/newPassword.php on line 175
+[21-Nov-2019 06:34:37 UTC] PHP Warning:  Use of undefined constant BASE_URL - assumed 'BASE_URL' (this will throw an Error in a future version of PHP) in /home/xj6eunsk9mjs/public_html/newPassword.php on line 176
+[21-Nov-2019 06:34:37 UTC] PHP Warning:  Use of undefined constant BASE_URL - assumed 'BASE_URL' (this will throw an Error in a future version of PHP) in /home/xj6eunsk9mjs/public_html/newPassword.php on line 11
+[21-Nov-2019 06:34:37 UTC] PHP Warning:  Use of undefined constant BASE_URL - assumed 'BASE_URL' (this will throw an Error in a future version of PHP) in /home/xj6eunsk9mjs/public_html/newPassword.php on line 13
+[21-Nov-2019 06:34:37 UTC] PHP Warning:  Use of undefined constant BASE_URL - assumed 'BASE_URL' (this will throw an Error in a future version of PHP) in /home/xj6eunsk9mjs/public_html/newPassword.php on line 15
+[21-Nov-2019 06:34:37 UTC] PHP Warning:  Use of undefined constant BASE_URL - assumed 'BASE_URL' (this will throw an Error in a future version of PHP) in /home/xj6eunsk9mjs/public_html/newPassword.php on line 16
+[21-Nov-2019 06:34:37 UTC] PHP Notice:  Undefined index: code in /home/xj6eunsk9mjs/public_html/newPassword.php on line 148
+[21-Nov-2019 06:34:37 UTC] PHP Warning:  Use of undefined constant BASE_URL - assumed 'BASE_URL' (this will throw an Error in a future version of PHP) in /home/xj6eunsk9mjs/public_html/newPassword.php on line 166
+[21-Nov-2019 06:34:37 UTC] PHP Warning:  Use of undefined constant BASE_URL - assumed 'BASE_URL' (this will throw an Error in a future version of PHP) in /home/xj6eunsk9mjs/public_html/newPassword.php on line 168
+[21-Nov-2019 06:34:37 UTC] PHP Warning:  Use of undefined constant BASE_URL - assumed 'BASE_URL' (this will throw an Error in a future version of PHP) in /home/xj6eunsk9mjs/public_html/newPassword.php on line 170
+[21-Nov-2019 06:34:37 UTC] PHP Warning:  Use of undefined constant BASE_URL - assumed 'BASE_URL' (this will throw an Error in a future version of PHP) in /home/xj6eunsk9mjs/public_html/newPassword.php on line 174
+[21-Nov-2019 06:34:37 UTC] PHP Warning:  Use of undefined constant BASE_URL - assumed 'BASE_URL' (this will throw an Error in a future version of PHP) in /home/xj6eunsk9mjs/public_html/newPassword.php on line 175
+[21-Nov-2019 06:34:37 UTC] PHP Warning:  Use of undefined constant BASE_URL - assumed 'BASE_URL' (this will throw an Error in a future version of PHP) in /home/xj6eunsk9mjs/public_html/newPassword.php on line 176
+[21-Nov-2019 06:34:37 UTC] PHP Warning:  Use of undefined constant BASE_URL - assumed 'BASE_URL' (this will throw an Error in a future version of PHP) in /home/xj6eunsk9mjs/public_html/newPassword.php on line 11
+[21-Nov-2019 06:34:37 UTC] PHP Warning:  Use of undefined constant BASE_URL - assumed 'BASE_URL' (this will throw an Error in a future version of PHP) in /home/xj6eunsk9mjs/public_html/newPassword.php on line 13
+[21-Nov-2019 06:34:37 UTC] PHP Warning:  Use of undefined constant BASE_URL - assumed 'BASE_URL' (this will throw an Error in a future version of PHP) in /home/xj6eunsk9mjs/public_html/newPassword.php on line 15
+[21-Nov-2019 06:34:37 UTC] PHP Warning:  Use of undefined constant BASE_URL - assumed 'BASE_URL' (this will throw an Error in a future version of PHP) in /home/xj6eunsk9mjs/public_html/newPassword.php on line 16
+[21-Nov-2019 06:34:37 UTC] PHP Notice:  Undefined index: code in /home/xj6eunsk9mjs/public_html/newPassword.php on line 148
+[21-Nov-2019 06:34:37 UTC] PHP Warning:  Use of undefined constant BASE_URL - assumed 'BASE_URL' (this will throw an Error in a future version of PHP) in /home/xj6eunsk9mjs/public_html/newPassword.php on line 166
+[21-Nov-2019 06:34:37 UTC] PHP Warning:  Use of undefined constant BASE_URL - assumed 'BASE_URL' (this will throw an Error in a future version of PHP) in /home/xj6eunsk9mjs/public_html/newPassword.php on line 168
+[21-Nov-2019 06:34:37 UTC] PHP Warning:  Use of undefined constant BASE_URL - assumed 'BASE_URL' (this will throw an Error in a future version of PHP) in /home/xj6eunsk9mjs/public_html/newPassword.php on line 170
+[21-Nov-2019 06:34:37 UTC] PHP Warning:  Use of undefined constant BASE_URL - assumed 'BASE_URL' (this will throw an Error in a future version of PHP) in /home/xj6eunsk9mjs/public_html/newPassword.php on line 174
+[21-Nov-2019 06:34:37 UTC] PHP Warning:  Use of undefined constant BASE_URL - assumed 'BASE_URL' (this will throw an Error in a future version of PHP) in /home/xj6eunsk9mjs/public_html/newPassword.php on line 175
+[21-Nov-2019 06:34:37 UTC] PHP Warning:  Use of undefined constant BASE_URL - assumed 'BASE_URL' (this will throw an Error in a future version of PHP) in /home/xj6eunsk9mjs/public_html/newPassword.php on line 176
+[21-Nov-2019 06:34:39 UTC] PHP Warning:  Use of undefined constant BASE_URL - assumed 'BASE_URL' (this will throw an Error in a future version of PHP) in /home/xj6eunsk9mjs/public_html/newPassword.php on line 11
+[21-Nov-2019 06:34:39 UTC] PHP Warning:  Use of undefined constant BASE_URL - assumed 'BASE_URL' (this will throw an Error in a future version of PHP) in /home/xj6eunsk9mjs/public_html/newPassword.php on line 13
+[21-Nov-2019 06:34:39 UTC] PHP Warning:  Use of undefined constant BASE_URL - assumed 'BASE_URL' (this will throw an Error in a future version of PHP) in /home/xj6eunsk9mjs/public_html/newPassword.php on line 15
+[21-Nov-2019 06:34:39 UTC] PHP Warning:  Use of undefined constant BASE_URL - assumed 'BASE_URL' (this will throw an Error in a future version of PHP) in /home/xj6eunsk9mjs/public_html/newPassword.php on line 16
+[21-Nov-2019 06:34:39 UTC] PHP Notice:  Undefined index: code in /home/xj6eunsk9mjs/public_html/newPassword.php on line 148
+[21-Nov-2019 06:34:39 UTC] PHP Warning:  Use of undefined constant BASE_URL - assumed 'BASE_URL' (this will throw an Error in a future version of PHP) in /home/xj6eunsk9mjs/public_html/newPassword.php on line 166
+[21-Nov-2019 06:34:39 UTC] PHP Warning:  Use of undefined constant BASE_URL - assumed 'BASE_URL' (this will throw an Error in a future version of PHP) in /home/xj6eunsk9mjs/public_html/newPassword.php on line 168
+[21-Nov-2019 06:34:39 UTC] PHP Warning:  Use of undefined constant BASE_URL - assumed 'BASE_URL' (this will throw an Error in a future version of PHP) in /home/xj6eunsk9mjs/public_html/newPassword.php on line 170
+[21-Nov-2019 06:34:39 UTC] PHP Warning:  Use of undefined constant BASE_URL - assumed 'BASE_URL' (this will throw an Error in a future version of PHP) in /home/xj6eunsk9mjs/public_html/newPassword.php on line 174
+[21-Nov-2019 06:34:39 UTC] PHP Warning:  Use of undefined constant BASE_URL - assumed 'BASE_URL' (this will throw an Error in a future version of PHP) in /home/xj6eunsk9mjs/public_html/newPassword.php on line 175
+[21-Nov-2019 06:34:39 UTC] PHP Warning:  Use of undefined constant BASE_URL - assumed 'BASE_URL' (this will throw an Error in a future version of PHP) in /home/xj6eunsk9mjs/public_html/newPassword.php on line 176
+[21-Nov-2019 06:34:39 UTC] PHP Warning:  Use of undefined constant BASE_URL - assumed 'BASE_URL' (this will throw an Error in a future version of PHP) in /home/xj6eunsk9mjs/public_html/newPassword.php on line 11
+[21-Nov-2019 06:34:39 UTC] PHP Warning:  Use of undefined constant BASE_URL - assumed 'BASE_URL' (this will throw an Error in a future version of PHP) in /home/xj6eunsk9mjs/public_html/newPassword.php on line 13
+[21-Nov-2019 06:34:39 UTC] PHP Warning:  Use of undefined constant BASE_URL - assumed 'BASE_URL' (this will throw an Error in a future version of PHP) in /home/xj6eunsk9mjs/public_html/newPassword.php on line 15
+[21-Nov-2019 06:34:39 UTC] PHP Warning:  Use of undefined constant BASE_URL - assumed 'BASE_URL' (this will throw an Error in a future version of PHP) in /home/xj6eunsk9mjs/public_html/newPassword.php on line 16
+[21-Nov-2019 06:34:39 UTC] PHP Notice:  Undefined index: code in /home/xj6eunsk9mjs/public_html/newPassword.php on line 148
+[21-Nov-2019 06:34:39 UTC] PHP Warning:  Use of undefined constant BASE_URL - assumed 'BASE_URL' (this will throw an Error in a future version of PHP) in /home/xj6eunsk9mjs/public_html/newPassword.php on line 166
+[21-Nov-2019 06:34:39 UTC] PHP Warning:  Use of undefined constant BASE_URL - assumed 'BASE_URL' (this will throw an Error in a future version of PHP) in /home/xj6eunsk9mjs/public_html/newPassword.php on line 168
+[21-Nov-2019 06:34:39 UTC] PHP Warning:  Use of undefined constant BASE_URL - assumed 'BASE_URL' (this will throw an Error in a future version of PHP) in /home/xj6eunsk9mjs/public_html/newPassword.php on line 170
+[21-Nov-2019 06:34:39 UTC] PHP Warning:  Use of undefined constant BASE_URL - assumed 'BASE_URL' (this will throw an Error in a future version of PHP) in /home/xj6eunsk9mjs/public_html/newPassword.php on line 174
+[21-Nov-2019 06:34:39 UTC] PHP Warning:  Use of undefined constant BASE_URL - assumed 'BASE_URL' (this will throw an Error in a future version of PHP) in /home/xj6eunsk9mjs/public_html/newPassword.php on line 175
+[21-Nov-2019 06:34:39 UTC] PHP Warning:  Use of undefined constant BASE_URL - assumed 'BASE_URL' (this will throw an Error in a future version of PHP) in /home/xj6eunsk9mjs/public_html/newPassword.php on line 176
+[21-Nov-2019 06:34:39 UTC] PHP Warning:  Use of undefined constant BASE_URL - assumed 'BASE_URL' (this will throw an Error in a future version of PHP) in /home/xj6eunsk9mjs/public_html/newPassword.php on line 11
+[21-Nov-2019 06:34:39 UTC] PHP Warning:  Use of undefined constant BASE_URL - assumed 'BASE_URL' (this will throw an Error in a future version of PHP) in /home/xj6eunsk9mjs/public_html/newPassword.php on line 13
+[21-Nov-2019 06:34:39 UTC] PHP Warning:  Use of undefined constant BASE_URL - assumed 'BASE_URL' (this will throw an Error in a future version of PHP) in /home/xj6eunsk9mjs/public_html/newPassword.php on line 15
+[21-Nov-2019 06:34:39 UTC] PHP Warning:  Use of undefined constant BASE_URL - assumed 'BASE_URL' (this will throw an Error in a future version of PHP) in /home/xj6eunsk9mjs/public_html/newPassword.php on line 16
+[21-Nov-2019 06:34:39 UTC] PHP Notice:  Undefined index: code in /home/xj6eunsk9mjs/public_html/newPassword.php on line 148
+[21-Nov-2019 06:34:39 UTC] PHP Warning:  Use of undefined constant BASE_URL - assumed 'BASE_URL' (this will throw an Error in a future version of PHP) in /home/xj6eunsk9mjs/public_html/newPassword.php on line 166
+[21-Nov-2019 06:34:39 UTC] PHP Warning:  Use of undefined constant BASE_URL - assumed 'BASE_URL' (this will throw an Error in a future version of PHP) in /home/xj6eunsk9mjs/public_html/newPassword.php on line 168
+[21-Nov-2019 06:34:39 UTC] PHP Warning:  Use of undefined constant BASE_URL - assumed 'BASE_URL' (this will throw an Error in a future version of PHP) in /home/xj6eunsk9mjs/public_html/newPassword.php on line 170
+[21-Nov-2019 06:34:39 UTC] PHP Warning:  Use of undefined constant BASE_URL - assumed 'BASE_URL' (this will throw an Error in a future version of PHP) in /home/xj6eunsk9mjs/public_html/newPassword.php on line 174
+[21-Nov-2019 06:34:39 UTC] PHP Warning:  Use of undefined constant BASE_URL - assumed 'BASE_URL' (this will throw an Error in a future version of PHP) in /home/xj6eunsk9mjs/public_html/newPassword.php on line 175
+[21-Nov-2019 06:34:39 UTC] PHP Warning:  Use of undefined constant BASE_URL - assumed 'BASE_URL' (this will throw an Error in a future version of PHP) in /home/xj6eunsk9mjs/public_html/newPassword.php on line 176
+[21-Nov-2019 06:34:39 UTC] PHP Warning:  Use of undefined constant BASE_URL - assumed 'BASE_URL' (this will throw an Error in a future version of PHP) in /home/xj6eunsk9mjs/public_html/newPassword.php on line 11
+[21-Nov-2019 06:34:39 UTC] PHP Warning:  Use of undefined constant BASE_URL - assumed 'BASE_URL' (this will throw an Error in a future version of PHP) in /home/xj6eunsk9mjs/public_html/newPassword.php on line 13
+[21-Nov-2019 06:34:39 UTC] PHP Warning:  Use of undefined constant BASE_URL - assumed 'BASE_URL' (this will throw an Error in a future version of PHP) in /home/xj6eunsk9mjs/public_html/newPassword.php on line 15
+[21-Nov-2019 06:34:39 UTC] PHP Warning:  Use of undefined constant BASE_URL - assumed 'BASE_URL' (this will throw an Error in a future version of PHP) in /home/xj6eunsk9mjs/public_html/newPassword.php on line 16
+[21-Nov-2019 06:34:39 UTC] PHP Notice:  Undefined index: code in /home/xj6eunsk9mjs/public_html/newPassword.php on line 148
+[21-Nov-2019 06:34:39 UTC] PHP Warning:  Use of undefined constant BASE_URL - assumed 'BASE_URL' (this will throw an Error in a future version of PHP) in /home/xj6eunsk9mjs/public_html/newPassword.php on line 166
+[21-Nov-2019 06:34:39 UTC] PHP Warning:  Use of undefined constant BASE_URL - assumed 'BASE_URL' (this will throw an Error in a future version of PHP) in /home/xj6eunsk9mjs/public_html/newPassword.php on line 168
+[21-Nov-2019 06:34:39 UTC] PHP Warning:  Use of undefined constant BASE_URL - assumed 'BASE_URL' (this will throw an Error in a future version of PHP) in /home/xj6eunsk9mjs/public_html/newPassword.php on line 170
+[21-Nov-2019 06:34:39 UTC] PHP Warning:  Use of undefined constant BASE_URL - assumed 'BASE_URL' (this will throw an Error in a future version of PHP) in /home/xj6eunsk9mjs/public_html/newPassword.php on line 174
+[21-Nov-2019 06:34:39 UTC] PHP Warning:  Use of undefined constant BASE_URL - assumed 'BASE_URL' (this will throw an Error in a future version of PHP) in /home/xj6eunsk9mjs/public_html/newPassword.php on line 175
+[21-Nov-2019 06:34:39 UTC] PHP Warning:  Use of undefined constant BASE_URL - assumed 'BASE_URL' (this will throw an Error in a future version of PHP) in /home/xj6eunsk9mjs/public_html/newPassword.php on line 176
+[21-Nov-2019 13:58:03 UTC] PHP Notice:  Undefined index: labour_type in /home/xj6eunsk9mjs/public_html/updatee.php on line 271
+[21-Nov-2019 13:58:03 UTC] PHP Notice:  Undefined index: labour_type in /home/xj6eunsk9mjs/public_html/updatee.php on line 272
+[21-Nov-2019 13:58:03 UTC] PHP Notice:  Undefined index: unit in /home/xj6eunsk9mjs/public_html/updatee.php on line 316
+[21-Nov-2019 13:58:03 UTC] PHP Notice:  Undefined index: labour_type in /home/xj6eunsk9mjs/public_html/updatee.php on line 271
+[21-Nov-2019 13:58:03 UTC] PHP Notice:  Undefined index: labour_type in /home/xj6eunsk9mjs/public_html/updatee.php on line 272
+[21-Nov-2019 13:58:03 UTC] PHP Notice:  Undefined index: unit in /home/xj6eunsk9mjs/public_html/updatee.php on line 316
+[22-Nov-2019 05:07:35 UTC] PHP Notice:  Undefined index: error in /home/xj6eunsk9mjs/public_html/estimateForm.php on line 147
+[22-Nov-2019 05:07:35 UTC] PHP Notice:  Undefined index: success in /home/xj6eunsk9mjs/public_html/estimateForm.php on line 156
+[22-Nov-2019 05:08:02 UTC] PHP Notice:  Undefined index: error in /home/xj6eunsk9mjs/public_html/estimateForm.php on line 147
+[22-Nov-2019 05:08:02 UTC] PHP Notice:  Undefined index: success in /home/xj6eunsk9mjs/public_html/estimateForm.php on line 156

@@ -1,0 +1,433 @@
+<!doctype html>
+<html lang="en">
+<head>
+ <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+<script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+
+    <!-- Font Awesome -->
+<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.2/css/all.css">
+<!-- Bootstrap core CSS -->
+<!-- <link href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.3.1/css/bootstrap.min.css" rel="stylesheet"> -->
+<!-- Material Design Bootstrap -->
+<link href="https://cdnjs.cloudflare.com/ajax/libs/mdbootstrap/4.8.7/css/mdb.min.css" rel="stylesheet">
+<link rel="stylesheet" href="https://unpkg.com/bootstrap-material-design@4.1.1/dist/css/bootstrap-material-design.min.css" integrity="sha384-wXznGJNEXNG1NFsbm0ugrLFMQPWswR3lds2VeinahP8N0zJw9VWSopbjv2x7WCvX" crossorigin="anonymous">
+<link href="https://fonts.googleapis.com/css?family=Lora&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="style.css" type="text/css">
+
+<script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+<title>Hello, World!</title>
+<link href="https://www.jqueryscript.net/css/jquerysctipttop.css" rel="stylesheet" type="text/css">
+<link rel="stylesheet" text="text/css" href="./css/estimateForm.css">
+        <script type="text/javascript" src="dist/jautocalc.js"></script>
+        <script type="text/javascript">
+            $(document).ready(function() {
+
+                function autoCalcSetup() {
+                    $('form[name=cart]').jAutoCalc('destroy');
+                    $('form[name=cart] tr[name=line_items]').jAutoCalc({keyEventsFire: true, decimalPlaces: 2, emptyAsZero: true});
+                    $('form[name=cart]').jAutoCalc({decimalPlaces: 2});
+                }
+                autoCalcSetup();
+
+
+                $('button[name=remove]').click(function(e) {
+                    e.preventDefault();
+
+                    var form = $(this).parents('form')
+                    $(this).parents('tr').remove();
+                    autoCalcSetup();
+
+                });
+
+                $('button[name=add]').click(function(e) {
+                    e.preventDefault();
+
+                    var $table = $(this).parents('table');
+                    var $bottom = $table.find('tr[name=line_items]').last();
+                    var $new = $bottom.clone(true);
+
+                    $new.jAutoCalc('destroy');
+                    $new.insertAfter($bottom);
+                    $new.find('input[type=text]').val('');
+                    autoCalcSetup();
+
+                });
+
+            });
+        //-->
+        </script> 
+    </head>
+    <body>
+       
+        <div class="">
+ <!-- NAVBAR CONTAINER START -->
+<nav class="navbar navbar-expand-lg" style="background-color: #0c6eaf;">
+        <a class="navbar-brand" id="brandLink" href="#" >Estimakr</a>
+          <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+      
+        <div class="collapse navbar-collapse text-center" id="navbarSupportedContent">
+            <button class="btn btn-outline-success wave-effect ml-auto" id="newEstimateBtn" href="#" type="button">
+                <span style="color: white;">New Estimate</span>
+            </button>
+           <ul class="navbar-nav" >
+            <li class="nav-item dropdown">
+    
+              <!-- ADD USERS NAME BELOW -->
+              <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" 
+                  data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                Danny
+              </a>
+              <!-- ADD USERS NAME ABOVE -->
+      
+              <div class="dropdown-menu" aria-labelledby="navbarDropdown" style="background-color:#226e90;">
+                <a class="dropdown-item" id="dropdownLink" href="estimateForm.html">New Estimate</a>
+                <a class="dropdown-item" id="dropdownLink" href="#">Estimate</a>
+                <a class="dropdown-item" id="dropdownLink" href="#">Account</a>
+                <a class="dropdown-item" id="dropdownLink" href="estimateStatus.html">Saved Estimates</a>
+              </div>
+            </li>
+             <li class="nav-item">
+              <a class="nav-link" href="#">Settings</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="signout.php" tabindex="-1" aria-disabled="true">LogOut</a>
+            </li>
+          </ul>
+        </div>
+      </nav>
+      <!-- NAVBAR CONTAINER END -->
+
+ <!-- FORM PAGE SELECTION ONCLICK MENU -->
+<div class="btn-group btn-group-toggle" id="subMenuContainer" data-toggle="buttons" 
+style="background-color: #0b567e; padding:0px;">
+  
+  <label class="btn form-check-label" onclick="window.location = 'profile.html';" id="subMenuBtnProfileRates">   
+    <input class="form-check-input" type="radio" name="options" autocomplete="off"> 
+    Profile Rates
+  </label>
+
+  <label class="btn form-check-label active" id="subMenuBtnEstimate">
+    <input class="form-check-input" type="radio" name="options" autocomplete="off"> 
+    Estimate
+  </label>
+  <div>
+    <button class="btn btn-success" id="subMenuSaveEstimate"><span style="color: white;">Save Estimate</span></button>
+  </div>
+</div>
+<!-- FORM PAGE SELECTION ONCLICK MENU -->
+
+
+
+
+<!-- FORMS TO BE SWITCHED ON RADIO CLICK START ------------------------------------->
+                    <!--BUSINESS AND CUSTOMER INFORMATION START-->
+                    <div class="row col-12">
+                            <!-- BUSINESS INFORMATION FORM INPUT START -->
+                              <form class="col-4 container">   
+                                    <h5 class="text-center py-4 d-block">Business Information</h5>
+                                    <input type="text" class="form-control" placeholder="Business Name">
+                            
+                                <div class="form-row">
+                                    <div class="form-group col-md-6">
+                                        <input type="text" class="form-control"  placeholder="First Name">
+                                    </div>
+                                    <div class="form-group col-md-6">
+                                        <input type="text" class="form-control " placeholder="Last Name">
+                                    </div>
+                                </div>
+                            
+                                    <input type="text" class="form-control" placeholder="Street Address"> 
+                            
+                                <div class="form-row ">       
+                                    <div class="form-group col-md-4">
+                                        <input type="text" class="form-control" placeholder="City">
+                                    </div>
+                                    <div class="form-group col-md-4">
+                                            <input type="text" class="form-control" placeholder="State">
+                                    </div>
+                                    <div class="form-group col-md-4">
+                                        <input type="text" class="form-control" placeholder="Zip Code">
+                                    </div>
+                                </div>
+                            
+                                <div class="row">
+                                    <div class="col-sm-6" >
+                                        <input type="email" class="form-control" placeholder="Email">
+                                    </div>
+                            
+                                    <div class="col-sm-6">
+                                        <input type="Phone" class="form-control" placeholder="Phone number">
+                                    </div>  
+                                </div>    
+                              </form>
+                            <!-- BUSINESS INFORMATION FORM INPUT END -->
+                            
+                            <!-- JOB INFORMATION INPUT START -->
+                               <form class="col-2 container">   
+                                    <h5 class="text-center py-4 d-block">Job Information</h5>
+                                <div class="form-row ">
+                                    <input type="text" class="form-control" placeholder="Year">
+                                    <input type="text" class="form-control"  placeholder="Make">
+                                    <input type="text" class="form-control " placeholder="Model">
+                                </div>   
+                              </form>
+                              <!-- JOB INFORMATION INPUT END -->
+                            
+                              <!-- CUSTOMER INFORMATION INPUT START -->
+                              <form class="col-4 container">   
+                                    <h5 class="text-center py-4 d-block">Customer Information</h5>
+                                    <input type="text" class="form-control" placeholder="Business Name">
+                            
+                                <div class="form-row">
+                                    <div class="form-group col-md-6">
+                                        <input type="text" class="form-control"  placeholder="First Name">
+                                    </div>
+                                    <div class="form-group col-md-6">
+                                        <input type="text" class="form-control " placeholder="Last Name">
+                                    </div>
+                                </div>
+                            
+                                    <input type="text" class="form-control" placeholder="Street Address"> 
+                            
+                                <div class="form-row ">       
+                                    <div class="form-group col-md-4">
+                                        <input type="text" class="form-control" placeholder="City">
+                                    </div>
+                                    <div class="form-group col-md-4">
+                                            <input type="text" class="form-control" placeholder="State">
+                                    </div>
+                                    <div class="form-group col-md-4">
+                                        <input type="text" class="form-control" placeholder="Zip Code">
+                                    </div>
+                                </div>
+                            
+                                <div class="row">
+                                    <div class="col-sm-6" >
+                                        <input type="email" class="form-control" placeholder="Email">
+                                    </div>
+                            
+                                    <div class="col-sm-6">
+                                        <input type="Phone" class="form-control" placeholder="Phone number">
+                                    </div>  
+                                </div>    
+                              </form>
+                            <!-- CUSTOMER INFORMATION INPUT END -->
+                              </div>
+                            <!--BUSINESS AND CUSTOMER INFORMATION END-->
+                            
+                                    <!-- ESTIMATE TABLE START -->
+                                    <!-- Editable table -->
+                                    <div class="card">
+                              <h3 class="card-header text-center font-weight-bold text-uppercase py-4">Estimate Table</h3>
+                              <div class="card-body">
+                                   <form name="cart">
+                                        <table class="table table-bordered table-responsive-md table-striped text-center" name="cart">
+                                        <thead>
+                                            <tr>
+                                                <th>Labor Type</th>
+                                                <th>Labor Options</th>
+                                                <th>Description</th>
+                                                <th>Part Type</th>
+                                                <th>Part Number</th>
+                                                <th>Tax</th>
+                                                <th>Hourly Rate</th>
+                                                <th>Labour Unit</th>
+                                                <th>Price</th>
+                                                <th>Cost</th>
+                                            <!--  <th>Rowup/RowDown</th> -->
+                                                 <th></th>
+                                            </tr>
+                                            </thead>
+                                         <tbody>
+                                            <tr name="line_items">
+                                                <!-- LABOR TYPE SELECTION START -->
+                                        <td class="pt-3-half">
+                                           <select id="laborType" class="custom-select mr-sm-2" name="laborType" onblur="calu();" required> 
+                                            <option value="" id="">Choose...</option>
+                                            <option value="body" id="1" >Body</option>
+                                            <option value="refinish" id="2">Refinish</option>
+                                            <option value="mechanical" id="3">Mechanical</option>
+                                            <option value="frame" id="4">Frame</option>
+                                            <option value="material" id="5">Material</option>
+                                            <option value="glass" id="6">Glass</option>
+                                            <option value="carbon-fiber" id="7">Carbon Fiber</option>
+                                            <option value="fleet" id="8">Fleet</option>
+                                          </select>
+                                        </td>
+                                        <!-- LABOR TYPE SELECTION END -->
+                                         <!-- LABOR OPTIONS SELECTION START -->
+                                        <td class="pt-3-half" contenteditable="true">
+                                          <select class="custom-select mr-sm-2" id="laborOptionsDropdown" name="laborOptions" required>
+                                              <option value="">Choose...</option>
+                                              <option value="remove-replace">Remove/Replace</option>
+                                              <option value="repair">Repair</option>
+                                              <option value="remove-install">Remove/Install</option>
+                                              <option value="align">Align</option>
+                                              <option value="overhaul">Overhaul</option>
+                                              <option value="Access-inspect">Access/Inspect</option>
+                                              <option value="check-adjust">Check/Adjust</option>
+                                              <option value="paintless-repair">Paintless Repair</option>
+                                              <option value="blend">blend</option>
+                                            </select>
+                                        </td>
+                                        <!-- LABOR OPTIONS END -->
+                                        <!-- DESCRIPTION NOTES START -->
+                                        <td class="pt-3-half" contenteditable="true">
+                                        <input type="text" id="partDescription" style="width:120px;" name="partDescription" maxlength="55"></td>
+                                        <!-- DESCRIPTION NOTES END -->
+                                        <!-- PART TYPE SELECTION START -->
+                                        <td class="pt-3-half" contenteditable="true">
+                                            <select class="custom-select mr-sm-2" id="partType" name="partType" required>
+                                                <option value="">Choose...</option> 
+                                                <option value="existing">Existing</option>
+                                                <option value="new">New</option>
+                                                <option value="aftermarket-new">Aftermarket(New)</option>
+                                                <option value="remanufactured">Remanufactured</option>
+                                                <option value="recycled-part">Qual Recycled</option>
+                                                <option value="sublet">Sublet</option>
+                                                <option value="rechromed">Rechromed</option>
+                                                <option value="oe-surplus">OE Surplus</option>
+                                                <option value="recored">Recored</option>
+                                              </select>
+                                        </td>
+                                        <!-- PART TYPE SELECTION END -->
+                                        <!-- PART NUMBER INPUT START -->
+                                        <td class="pt-3-half" contenteditable="true">
+                                        <input type="text" id="partNumber" style="width:120px;" name="partNumber" maxlength="25" required></td>
+                                        <!-- PART NUMBER INPUT END -->
+                                        <!-- TAX CHECKBOX START -->
+                                        <td class="pt-3-half" contenteditable="true">
+                                        <input type="checkbox" value="" id="tax" name="tax" onblur="calu();">
+                                        </td>
+                                        <!-- TAX CHECKBOX END -->
+                                        <td class="pt-3-half" contenteditable="true"><input  type="text" name="hourlyRate" value="1" style="width:120px; height:30px;" onblur="calu();" required></td>
+                                        <td class="pt-3-half" contenteditable="true"><input type="text" name="laborUnit" value="9.99" style="width:120px; height:30px;" onblur="calu();" required ></td>
+                                        <td class="pt-3-half" contenteditable="true"><input type="text" id="price" name="price" value="9.99" style="width:120px; height:30px;"  onblur="calu();" required></td>
+                                        <td class="pt-3-half" contenteditable="true"><input  type="text" name="cost1" id="cost1" value="" style="width:120px; height:30px;" jAutoCalc="{hourlyRate} * {laborUnit}" onblur="calu();" required>
+                                                <input class="pt-3-half" contenteditable="true" type="hidden" name="cost" id="cost" value="" style="width:120px;" jAutoCalc="{price} + {cost1}" onblur="calu();"></td>
+                                        <td><span><button type="button" class="btn btn-danger btn-rounded btn-sm my-0" name="remove" style="color:white;">Remove</button></span></td>
+                                            </tr>
+                                            <tr>
+                                                <td colspan="10"> &nbsp;</td>
+                                                <td><button name="add" id="addRowBtn" class="btn btn-primary btn-circle"><i class="fa fa-plus"></button></td>
+                                            </tr>
+                                            </tbody>
+                                            </table>
+                                            <table style="float:right;">
+                                            <tr>
+                                                <td colspan="">&nbsp;</td>
+                                                <td>Subtotal</td>
+                                                <td>&nbsp;</td>
+                                                <td><input type="text" name="sub_total" class="form-control" id="sub_total" value="" jAutoCalc="SUM({cost})" onblur="calu();"></td>
+                                            </tr>
+                                            <tr>
+                                                <td colspan="">&nbsp;</td>
+                                                <td>
+                                                    Tax:
+                                                    <input type="text" name="taxRate" id="taxRate" class="form-control" value="0" style="width:30px;" onblur="calu();"> <p> % </p>
+                                                </td>
+                                                <td>&nbsp;</td>
+                                                <td><input type="text" name="tax_total" id="tax_total" class="form-control" value="0" onblur="calu();"></td>
+                                            </tr>
+                                            <tr>
+                                                <td colspan="">&nbsp;</td>
+                                                <td>Total</td>
+                                                <td>&nbsp;</td>
+                                                <td><input type="text" name="grand_total" class="form-control" value="" jAutoCalc="{sub_total} + {tax_total}" onblur="calu();"></td>
+                                            </tr>
+                                        </table>
+                                        
+                                    </form>
+                                    
+                                    </div>
+                                    </div>
+                                    <div class="form-group shadow-textarea">
+                                        <textarea class="form-control z-depth-1 pl-3 pt-3" id="exampleFormControlTextarea6" rows="3" placeholder="Notes"></textarea>
+                                      </div>
+                                </div>
+                                <!-- TAX CALCULATION FUNCTION START -->
+                               <!-- FORMS TO BE SWITCHED ON RADIO CLICK START ------------------------------------->
+   <!--Footer-->
+  <footer class="page-footer text-center font-small wow fadeIn">
+
+    <!--Call to action-->
+    <div class="pt-4">
+      <a class="btn btn-outline-white" href="signup.html" target="_blank" role="button">Create your first estimate
+        <i class="fas fa-pen ml-2"></i>
+      </a>
+    </div>
+    <!--/.Call to action-->
+
+    <hr class="my-4">
+
+    <!-- Social icons -->
+    <div class="pb-4">
+      <a href="#" target="_blank">
+        <i class="fab fa-facebook-f mr-3"></i>
+      </a>
+
+      <a href="#" target="_blank">
+        <i class="fab fa-youtube mr-3"></i>
+      </a>
+
+      <a href="#" target="_blank">
+        <i class="fab fa-instagram mr-3"></i>
+      </a>
+    </div>
+    <!-- Social icons -->
+
+    <!--Copyright-->
+    <div class="footer-copyright py-3">
+      © 2019 Copyright:
+      <a href="https://mdbootstrap.com/education/bootstrap/" target="_blank"> Estimakr </a>
+    </div>
+    <!--/.Copyright-->
+
+  </footer>
+  <!--/.Footer-->
+
+
+
+
+
+<script type="text/javascript">
+      function calu()
+    {
+        var laborType = parseFloat(document.getElementById("laborType").value);
+        var price = parseFloat(document.getElementById("price").value);
+        var taxRate = parseFloat(document.getElementById("taxRate").value);
+        var taxRate = taxRate/100;
+        var cost1 = parseFloat(document.getElementById("cost1").value);
+        var sub_total = document.getElementById("sub_total").value;
+        var checkBox = document.getElementById("tax");
+        var x = document.getElementById( "laborType").selectedIndex; 
+      
+
+            //   <!-- TAX RATE NOT MULTIPLY % CORRECTLY -->
+             if (checkBox.checked == true && x == 5 && cost1 >= 1 ) {
+              document.getElementById("tax_total").value = cost1 * taxRate; 
+            }
+             else if (checkBox.checked == true  && price >= 1 ) {
+              document.getElementById("tax_total").value = (price * taxRate); 
+            }
+             
+        else
+        {
+            document.getElementById("tax_total").value = 0;
+        }
+    }
+      
+</script>
+<!-- TAX CALCULATION FUNCTION END -->
+
+    </body>
+
+</html>

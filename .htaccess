@@ -1,0 +1,4 @@
+RewriteEngine on
+RewriteCond %{update_profile} !-d
+RewriteCond %{update_profile}\.php -f
+RewriteRule ^(.*)$ $1.php
